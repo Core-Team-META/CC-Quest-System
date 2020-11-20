@@ -75,7 +75,7 @@
     Reward Setup
     ============
         
-    Expanding the QuestExample group, will reveal a child called Rewards. This is how the parent Quest, knows which rewards to give a player
+    Expanding the QuestExample group will reveal a child called Rewards. This is how the parent Quest knows which rewards to give a player
     upon completion of the quest. Select Rewards to reveal the following custom properties:
 
         1) Equipment - If you'd like the parent quest to reward a certain peice of equipment simply add the asset refrence of the equipment
@@ -90,14 +90,14 @@
         an asset refrence.
 
         To add more resource based rewards, add a new int custom property. The name of the custom property must match up with the resource
-        name you wish the quest to provide. The value will be how much of this resource will be provided upon completition.
+        name you wish the quest to provide. The value will be how much of this resource will be provided upon completion.
 
 
     Quest Givers
     ============
 
-    The next group in the heirarchy is QuestGivers. A Quest Giver, is simply an animated mesh with a trigger box. Expand "QuestGivers" to
-    reveal a child exampled labeled "NPC Quest Giver". Upon clicking on "NPC Quest Giver" will reveal a few custom properties:
+    The next group in the hierarchy is QuestGivers. A Quest Giver, is simply an animated mesh with a trigger box. Expand "QuestGivers" to
+    reveal a child example labeled "NPC Quest Giver". Clicking on "NPC Quest Giver" will reveal a few custom properties:
 
         1) HasQuest - In most cases this should be left as enabled, but if for whatever reason you disable a quest, but wish to leave this
         quest giver in your game, set this to false.
@@ -114,8 +114,7 @@
         description text, etc.
 
         6) Team - This should match the players team in most cases, if you want the quest giver to appear hostile for whatever reason, set
-        this to a different team. Though please note even if they are changed to an enemy, this is visual only currently and they cannot be
-        attacked.
+        this to a different team. Though please note even if they are changed to an enemy, this is visual only and they cannot be attacked.
 
         7) RequiresQuestComplete - If the quest requires a previous quest to be completed, set this to true. In most cases this should remain
         false.
@@ -123,7 +122,7 @@
         8) questCompleteID - If RequiresQuestComplete is set to true, this must be filled in with the ID of the previous quest the player must
         have completed to unlock this quest.
 
-        9) Quest - This should never be changed. It's used a label to display quests current state to the player.
+        9) Quest - This should never be changed. It's used internally to display state to the player.
         IE => Avaliable, Accepted, Completed.
             
    
@@ -149,8 +148,8 @@
 
     To do this, simply add two custom properties to the ROOT of the NPC you wish to work with theh quest system:
 
-        1) Add a integer custom property and name it QuestId, make sure the QuestId matches the ID you wish to connect the NPC too.
-        2) If for whatever reason you want the ability to disable a certain NPC counting towards a quest, simply Add a bool custom property
+        1) Add an integer custom property and name it QuestId, make sure the QuestId matches the ID you wish to connect the NPC too.
+        2) If for whatever reason you want the option to disable a certain NPC counting towards a quest, simply Add a bool custom property
         and name it HasQuest, make sure this is set to false and the NPC will no longer count towards quest progress until this is set to
         true again.
 
