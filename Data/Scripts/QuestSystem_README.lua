@@ -8,10 +8,10 @@
     
         Description:
 
-    Quest System is a component used to create different objectives for players to do in your game, once successfully completed players are
-    rewarded either equipment, resources or both. Progress of quests is only tracked on a per player basis, and only if the player has met the
-    minimum requirements and has accepted the quest. Currently it contains (2) main different quest examples, but will be expanded upon based
-    on feedback and requests. 
+    Quest System is a component used to create different objectives for players to do in your game. Once successfully completed, players can
+    be rewarded by either equipment, resources or both. Progress of quests is only tracked on a per player basis, and only if the player has
+    met the minimum requirements and has accepted the quest. Currently it contains (2) main different quest examples, but will be expanded
+    upon based on feedback and requests. 
      
 
         Requirements:
@@ -151,8 +151,8 @@
 
         1) Add a integer custom property and name it QuestId, make sure the QuestId matches the ID you wish to connect the NPC too.
         2) If for whatever reason you want the ability to disable a certain NPC counting towards a quest, simply Add a bool custom property
-        and name it HasQuest, make sure this is set to false and the NPC will no longer count towards quest progress until this is set to true
-        again.
+        and name it HasQuest, make sure this is set to false and the NPC will no longer count towards quest progress until this is set to
+        true again.
 
             
 --]]
