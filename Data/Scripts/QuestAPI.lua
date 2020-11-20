@@ -34,7 +34,7 @@ end
 
 local function CheckConstantExists(key, methodName)
     if questTable[key] == nil then
-        error(string.format("Unknown constant of '%s' (%s) passed to API.%s", key, type(key), methodName))
+        error(string.format("Unknown QuestID '%s' (%s) passed to API.%s, please check this quest exists and is enabled.", key, type(key), methodName))
     end
 end
 

@@ -23,7 +23,6 @@ Objects {
   ChildIds: 10163127600253082303
   ChildIds: 298909095617905417
   ChildIds: 14171780112296459774
-  ChildIds: 9212320899147226535
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,41 +32,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 9212320899147226535
-  Name: "RPG Dragon Enemy - Easy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13420344242969750217
-      value {
-        Overrides {
-          Name: "Name"
-          String: "RPG Dragon Enemy - Easy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 823.855774
-            Y: 137.72551
-            Z: 2.28881836e-05
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10439311011644165145
-    }
   }
 }
 Objects {
@@ -86,7 +50,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 14609521388857608379
+  ChildIds: 1439820558867442250
   ChildIds: 369906238347109753
   ChildIds: 6250760380711323358
   ChildIds: 16958816965416335525
@@ -96,6 +60,10 @@ Objects {
     Overrides {
       Name: "cs:UseHeirarchyData"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:UseHeirarchyData:tooltip"
+      String: "Leave this enabled to use quest data from the QuestList in the heirarchy. If set to false, quest data will be pulled from the QUESTDATA.lua"
     }
   }
   Collidable_v2 {
@@ -3072,6 +3040,14 @@ Objects {
       Name: "cs:Objective"
       Int: 1
     }
+    Overrides {
+      Name: "cs:QuestID:tooltip"
+      String: "This is the QuestID that this objective belongs too. If a player has the quest that this objective is connected to, it\'ll become visable. If the player collects it, progress towards the quest will be counted."
+    }
+    Overrides {
+      Name: "cs:Objective:tooltip"
+      String: "Currently this isn\'t functional but will be used as a way to identify which order if any the objectives must be collected."
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3338,6 +3314,7 @@ Objects {
   }
   ParentId: 14171780112296459774
   ChildIds: 5064000719229012819
+  ChildIds: 1246759313591253536
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3350,6 +3327,519 @@ Objects {
   InstanceHistory {
     SelfId: 6250760380711323358
     SubobjectId: 11329086325580137085
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 1246759313591253536
+  Name: "NPC Quest Giver"
+  Transform {
+    Location {
+      X: 665.643555
+      Z: -25.1190338
+    }
+    Rotation {
+      Yaw: 78.0596695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6250760380711323358
+  ChildIds: 5989077741298885556
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:HasQuest"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:questID"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:CurrentHealth"
+      Float: 100
+    }
+    Overrides {
+      Name: "cs:MOB_LEVEL"
+      Int: 50
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: "Kyle Cromwell"
+    }
+    Overrides {
+      Name: "cs:Team"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RequiresQuestComplete"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:questCompleteId"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:Quest"
+      String: "!"
+    }
+    Overrides {
+      Name: "cs:Quest:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:HasQuest:tooltip"
+      String: "In most cases this should be left as enabled, but if for whatever reason you disable a quest, but wish to leave this quest giver in your game, set this to false."
+    }
+    Overrides {
+      Name: "cs:questID:tooltip"
+      String: "This is the ID of the quest that the quest giver will provide players. This must match the ID of the quest in the QuestList. Unlike Quests, Quest Givers do not need to be in any particular order."
+    }
+    Overrides {
+      Name: "cs:CurrentHealth:tooltip"
+      String: "Simply visual, if you want the quest giver to have a certain amount of health labled on their HP bar, simply set it here."
+    }
+    Overrides {
+      Name: "cs:MOB_LEVEL:tooltip"
+      String: "Similar to CurrentHealth, this is visual only and will show the Quest Giver as a certain level."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "The name of your quest giver, this will be used for players to identify who they should turn the quest in, via quest description text, etc."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "This should match the players team in most cases, if you want the quest giver to appear hostile for whatever reason, set this to a different team. Though please note even if they are changed to an enemy, this is visual only currently and they cannot be attacked."
+    }
+    Overrides {
+      Name: "cs:RequiresQuestComplete:tooltip"
+      String: "If the quest requires a previous quest to be completed, set this to true. In most cases this should remain false."
+    }
+    Overrides {
+      Name: "cs:questCompleteId:tooltip"
+      String: "If RequiresQuestComplete is set to true, this must be filled in with the ID of the previous quest the player must have completed to unlock this quest."
+    }
+    Overrides {
+      Name: "cs:Quest:tooltip"
+      String: "This should never be changed. It\'s used a label to display quests current state to the player. IE => Avaliable, Accepted, Completed.            "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5064000719229012819
+    SubobjectId: 10214488710748377072
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 5989077741298885556
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1246759313591253536
+  ChildIds: 2582055167140623298
+  ChildIds: 6963324134319778146
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 4953643381814398928
+    SubobjectId: 10320340386602666867
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 6963324134319778146
+  Name: "ClientInfo"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5989077741298885556
+  ChildIds: 4320239543371230004
+  ChildIds: 6147574885291381298
+  ChildIds: 18169316286183139127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4772034850790238380
+    SubobjectId: 9925505757781961743
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 18169316286183139127
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: 107.095314
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 2.1
+    }
+  }
+  ParentId: 6963324134319778146
+  ChildIds: 17821294398636491577
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 14730800726603021704
+    SubobjectId: 570136057613383979
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 17821294398636491577
+  Name: "QuestDialogNPC"
+  Transform {
+    Location {
+      X: 226.912109
+      Y: 2552.15845
+      Z: -73.7162476
+    }
+    Rotation {
+      Yaw: -78.0601807
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18169316286183139127
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AcceptButton"
+      ObjectReference {
+        SelfId: 18084097885073903491
+      }
+    }
+    Overrides {
+      Name: "cs:CompleteButton"
+      ObjectReference {
+        SelfId: 8835749009627618159
+      }
+    }
+    Overrides {
+      Name: "cs:DeclineButton"
+      ObjectReference {
+        SelfId: 8034421636731720971
+      }
+    }
+    Overrides {
+      Name: "cs:QuestDescText"
+      ObjectReference {
+        SelfId: 5164526811179431515
+      }
+    }
+    Overrides {
+      Name: "cs:QuestGiverPanel"
+      ObjectReference {
+        SelfId: 5777924015546422223
+      }
+    }
+    Overrides {
+      Name: "cs:QuestGiverPanel_0"
+      ObjectReference {
+        SelfId: 4978985563805060939
+      }
+    }
+    Overrides {
+      Name: "cs:QuestName"
+      ObjectReference {
+        SelfId: 3110273844780317185
+      }
+    }
+    Overrides {
+      Name: "cs:QuestRewardPopup"
+      ObjectReference {
+        SelfId: 14659159940601750775
+      }
+    }
+    Overrides {
+      Name: "cs:RPGQuestGiver"
+      ObjectReference {
+        SelfId: 1246759313591253536
+      }
+    }
+    Overrides {
+      Name: "cs:Reward"
+      ObjectReference {
+        SelfId: 3836620512295477458
+      }
+    }
+    Overrides {
+      Name: "cs:ThirdPersonCamera"
+      ObjectReference {
+        SelfId: 3567959178173361743
+      }
+    }
+    Overrides {
+      Name: "cs:UIContainer"
+      ObjectReference {
+        SelfId: 5474673910039052735
+      }
+    }
+    Overrides {
+      Name: "cs:ClientInfo"
+      ObjectReference {
+        SelfId: 6963324134319778146
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 18169316286183139127
+      }
+    }
+    Overrides {
+      Name: "cs:RewardIcon"
+      ObjectReference {
+        SelfId: 11331064796289145044
+      }
+    }
+    Overrides {
+      Name: "cs:RewardText"
+      ObjectReference {
+        SelfId: 17061423611609851072
+      }
+    }
+    Overrides {
+      Name: "cs:QuestCompleteText"
+      ObjectReference {
+        SelfId: 3335937743705838405
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13706331181105299022
+    }
+  }
+  InstanceHistory {
+    SelfId: 8339700041210210637
+    SubobjectId: 13275283008463039982
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 6147574885291381298
+  Name: "Skeleton Mob"
+  Transform {
+    Location {
+      Z: 104.998901
+    }
+    Rotation {
+      Yaw: -6.8301847e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6963324134319778146
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7465368998497419452
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.583333
+        G: 0.406894237
+        B: 0.176166564
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 6652149231841382570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 6652149231841382570
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15478017006173490553
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        Animation: "unarmed_wave"
+        PlaybackRate: 1.00853765
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 183549967065443249
+    SubobjectId: 14486900461714190098
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 4320239543371230004
+  Name: "NPCHealthBarDataProviderClient"
+  Transform {
+    Location {
+      Z: 313.559082
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6963324134319778146
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 1246759313591253536
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16491943913220480600
+    }
+  }
+  InstanceHistory {
+    SelfId: 8008752054140420473
+    SubobjectId: 11863355531658429914
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 2582055167140623298
+  Name: "ForwardNode"
+  Transform {
+    Location {
+      X: 100
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5989077741298885556
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16926956517513277278
+    SubobjectId: 2409276039014280189
     InstanceId: 17695422093665490575
     TemplateId: 18012244764686992458
   }
@@ -3412,6 +3902,42 @@ Objects {
     Overrides {
       Name: "cs:Quest:isrep"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:HasQuest:tooltip"
+      String: "In most cases this should be left as enabled, but if for whatever reason you disable a quest, but wish to leave this quest giver in your game, set this to false."
+    }
+    Overrides {
+      Name: "cs:questID:tooltip"
+      String: "This is the ID of the quest that the quest giver will provide players. This must match the ID of the quest in the QuestList. Unlike Quests, Quest Givers do not need to be in any particular order."
+    }
+    Overrides {
+      Name: "cs:CurrentHealth:tooltip"
+      String: "Simply visual, if you want the quest giver to have a certain amount of health labled on their HP bar, simply set it here."
+    }
+    Overrides {
+      Name: "cs:MOB_LEVEL:tooltip"
+      String: "Similar to CurrentHealth, this is visual only and will show the Quest Giver as a certain level."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "The name of your quest giver, this will be used for players to identify who they should turn the quest in, via quest description text, etc."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "This should match the players team in most cases, if you want the quest giver to appear hostile for whatever reason, set this to a different team. Though please note even if they are changed to an enemy, this is visual only currently and they cannot be attacked."
+    }
+    Overrides {
+      Name: "cs:RequiresQuestComplete:tooltip"
+      String: "If the quest requires a previous quest to be completed, set this to true. In most cases this should remain false."
+    }
+    Overrides {
+      Name: "cs:questCompleteId:tooltip"
+      String: "If RequiresQuestComplete is set to true, this must be filled in with the ID of the previous quest the player must have completed to unlock this quest."
+    }
+    Overrides {
+      Name: "cs:Quest:tooltip"
+      String: "This should never be changed. It\'s used a label to display quests current state to the player. IE => Avaliable, Accepted, Completed.            "
     }
   }
   Collidable_v2 {
@@ -3846,6 +4372,7 @@ Objects {
   }
   ParentId: 14171780112296459774
   ChildIds: 3201213746077344918
+  ChildIds: 12455554201278469620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3858,6 +4385,178 @@ Objects {
   InstanceHistory {
     SelfId: 369906238347109753
     SubobjectId: 14890586247531831770
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 12455554201278469620
+  Name: "QuestExample"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 369906238347109753
+  ChildIds: 4555918134732372813
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enabled"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ID"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: "Slay Some Dragons"
+    }
+    Overrides {
+      Name: "cs:QuestDescText"
+      String: "Grab the carlos blade, and go slay the dragon in the bushes. Come back to me  for a  reward!"
+    }
+    Overrides {
+      Name: "cs:QuestCompleteText"
+      String: "Thank you for taking care of that, please take this..."
+    }
+    Overrides {
+      Name: "cs:QuestText"
+      String: "Slay The Dragon"
+    }
+    Overrides {
+      Name: "cs:Level"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:ObjectiveRequired"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:IsRepeatable"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:HoursUntilRepeatable"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:Enabled:tooltip"
+      String: "If checked the quest will be avalilable to players in your game."
+    }
+    Overrides {
+      Name: "cs:ID:tooltip"
+      String: "Currently this is used to help you remember the ID of the quest. The actual order in the heirarchy will dictate it\'s actual ID. For example if your quest ID is 1 be sure it\'s the first child under the QuestList. Note: I\'m aware this may cause issues and will be reworking this in future versions."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "This is how the players will be able to determine which quest they are on. This should be Unique but not required."
+    }
+    Overrides {
+      Name: "cs:QuestDescText:tooltip"
+      String: "Just like Name, this is what players will see when they go to accept the quest. This will also be shown in the quest journal, this can include lore, but be sure to be descriptive on what the player much achieve to successfully complete the quest."
+    }
+    Overrides {
+      Name: "cs:QuestCompleteText:tooltip"
+      String: "Once the player completes a quest and goes back to the quest giver, this is the text that they\'ll see before turning the quest in."
+    }
+    Overrides {
+      Name: "cs:QuestText:tooltip"
+      String: "This is a short but descriptive text that will show when a quest is being tracked by the player. For example => \"Kill (15) Skeletons\""
+    }
+    Overrides {
+      Name: "cs:Level:tooltip"
+      String: "If you want the quest to have a minimum level requirement, before a player can accept the quest."
+    }
+    Overrides {
+      Name: "cs:ObjectiveRequired:tooltip"
+      String: "How many quest objectives must a player perform, to consider the quest completed. For example => \"Kill (15) Skeletons\" should be 15 as the ObjectiveRequired."
+    }
+    Overrides {
+      Name: "cs:IsRepeatable:tooltip"
+      String: "Making this true will allow players  to do the quest again after if after they\'ve relogged into your game and the hours required untili repeatable critereia is true."
+    }
+    Overrides {
+      Name: "cs:HoursUntilRepeatable:tooltip"
+      String: "Only used if IsRepetable is checked. If you\'d like the quest to be repeatable after 1 hour, set this to 1. If you\'d like it to be repeatable 24 hours later, set this to 24, etc."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 3201213746077344918
+    SubobjectId: 16711495368425824309
+    InstanceId: 17695422093665490575
+    TemplateId: 18012244764686992458
+  }
+}
+Objects {
+  Id: 4555918134732372813
+  Name: "Rewards"
+  Transform {
+    Location {
+      X: 465.152954
+      Y: 215.34758
+      Z: -2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12455554201278469620
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Equipment"
+      AssetReference {
+        Id: 841534158063459245
+      }
+    }
+    Overrides {
+      Name: "cs:XP"
+      String: "500"
+    }
+    Overrides {
+      Name: "cs:Coins"
+      String: "100"
+    }
+    Overrides {
+      Name: "cs:XP:tooltip"
+      String: "Example Resource Based Reward"
+    }
+    Overrides {
+      Name: "cs:Equipment:tooltip"
+      String: "Example equipment reward."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6969410081424592393
+    SubobjectId: 12339729958770576042
     InstanceId: 17695422093665490575
     TemplateId: 18012244764686992458
   }
@@ -3889,15 +4588,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Name"
-      String: "GamerTitan.com"
+      String: "Find The Lost Sword"
     }
     Overrides {
       Name: "cs:QuestDescText"
-      String: "Long quest abaout some shit that we prob don\'t care about tbecause this is simply a test to see if this is going to work with long text that is forever running"
+      String: "I seem to have lost my sword, could you find it for me? "
     }
     Overrides {
       Name: "cs:QuestCompleteText"
-      String: "Complete Text Test"
+      String: "You found it! Great, please take this reward."
     }
     Overrides {
       Name: "cs:QuestText"
@@ -3918,6 +4617,46 @@ Objects {
     Overrides {
       Name: "cs:HoursUntilRepeatable"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:Enabled:tooltip"
+      String: "If checked the quest will be avalilable to players in your game."
+    }
+    Overrides {
+      Name: "cs:ID:tooltip"
+      String: "Currently this is used to help you remember the ID of the quest. The actual order in the heirarchy will dictate it\'s actual ID. For example if your quest ID is 1 be sure it\'s the first child under the QuestList. Note: I\'m aware this may cause issues and will be reworking this in future versions."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "This is how the players will be able to determine which quest they are on. This should be Unique but not required."
+    }
+    Overrides {
+      Name: "cs:QuestDescText:tooltip"
+      String: "Just like Name, this is what players will see when they go to accept the quest. This will also be shown in the quest journal, this can include lore, but be sure to be descriptive on what the player much achieve to successfully complete the quest."
+    }
+    Overrides {
+      Name: "cs:QuestCompleteText:tooltip"
+      String: "Once the player completes a quest and goes back to the quest giver, this is the text that they\'ll see before turning the quest in."
+    }
+    Overrides {
+      Name: "cs:QuestText:tooltip"
+      String: "This is a short but descriptive text that will show when a quest is being tracked by the player. For example => \"Kill (15) Skeletons\""
+    }
+    Overrides {
+      Name: "cs:Level:tooltip"
+      String: "If you want the quest to have a minimum level requirement, before a player can accept the quest."
+    }
+    Overrides {
+      Name: "cs:ObjectiveRequired:tooltip"
+      String: "How many quest objectives must a player perform, to consider the quest completed. For example => \"Kill (15) Skeletons\" should be 15 as the ObjectiveRequired."
+    }
+    Overrides {
+      Name: "cs:IsRepeatable:tooltip"
+      String: "Making this true will allow players  to do the quest again after if after they\'ve relogged into your game and the hours required untili repeatable critereia is true."
+    }
+    Overrides {
+      Name: "cs:HoursUntilRepeatable:tooltip"
+      String: "Only used if IsRepetable is checked. If you\'d like the quest to be repeatable after 1 hour, set this to 1. If you\'d like it to be repeatable 24 hours later, set this to 24, etc."
     }
   }
   Collidable_v2 {
@@ -3958,7 +4697,7 @@ Objects {
     Overrides {
       Name: "cs:Equipment"
       AssetReference {
-        Id: 3373978247902432081
+        Id: 841534158063459245
       }
     }
     Overrides {
@@ -3968,6 +4707,14 @@ Objects {
     Overrides {
       Name: "cs:Coins"
       String: "100"
+    }
+    Overrides {
+      Name: "cs:XP:tooltip"
+      String: "Example Resource Based Reward"
+    }
+    Overrides {
+      Name: "cs:Equipment:tooltip"
+      String: "Example equipment reward."
     }
   }
   Collidable_v2 {
@@ -3987,38 +4734,6 @@ Objects {
   }
 }
 Objects {
-  Id: 14609521388857608379
-  Name: "ReadMe"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14171780112296459774
-  ChildIds: 1439820558867442250
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 14609521388857608379
-    SubobjectId: 88001352386907160
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
-  }
-}
-Objects {
   Id: 1439820558867442250
   Name: "QuestSystem-ReadMe"
   Transform {
@@ -4032,7 +4747,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14609521388857608379
+  ParentId: 14171780112296459774
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
