@@ -74,7 +74,7 @@ end
 
 -- IsValidObject()
 function API.IsValidObject(object)
-	if object then
+	if object ~= nil  then
 	return GetWrapperFor(object).IsValidObject(object)
 	end
 end

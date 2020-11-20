@@ -39,6 +39,11 @@ function wrapper.GetMaxHitPoints(player)
 	return player.maxHitPoints
 end
 
+--IsValidObject()
+function wrapper.IsValidObject(player)
+	return player:IsA("Player")
+end
+
 -- ApplyDamage()
 function wrapper.ApplyDamage(player, dmg)
 	player:ApplyDamage(dmg)
