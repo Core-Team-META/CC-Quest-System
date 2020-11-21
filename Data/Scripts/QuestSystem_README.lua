@@ -19,9 +19,6 @@
     CombatDependiences v0.10.1 or higher By: standardcombo
     (https://www.coregames.com/user/b4c6e32137e54571814b5e8f27aa2fcd)
 
-    Point of Interest System By: FearTheDev 
-    (https://www.coregames.com/user/33fbba21cf2b457bafb7f092f8b9d31e)
-
     
     This framework comes with:
         1) QuestList
