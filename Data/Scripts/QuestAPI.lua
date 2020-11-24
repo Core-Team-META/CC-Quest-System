@@ -15,7 +15,7 @@ local questTable = {}
 if not UseHeirarchyData then
     questTable = require(script:GetCustomProperty("QUESTDATA"))
 end
-
+local BTC = require(script:GetCustomProperty("BinaryConverterAPI"))
 ------------------------------------------------------------------------------------------------------------------------
 -- Local Functions
 ------------------------------------------------------------------------------------------------------------------------
@@ -115,6 +115,7 @@ function API.AddQuestProgress(id, player)
         player:AddResource(resName, 1)
     end
 end
+
 
 function API.FindQuestByName(name)
     for i, quest in ipairs(questTable) do

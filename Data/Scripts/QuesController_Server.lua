@@ -46,6 +46,11 @@ function AcceptQuest(Player, questIdStr)
     Player:SetResource(PlayerQuests.GetResourceName(tonumber(questIdStr)), 2)
 end
 
+function QuestItemPickup(player, resName, index)
+    player:AddResource(resName, 1)
+end
+
+
 function OnPlayerComplete(player, data)
     local NPCQuest = tonumber(data.id)
     local questStatus = 1
@@ -63,9 +68,6 @@ function OnPlayerComplete(player, data)
     player:SetResource(PlayerQuests.GetResourceName(NPCQuest), questStatus)
 end
 
-function QuestItemPickup(player, resName)
-    player:AddResource(resName, 1)
-end
 
 function OnPlayerJoined(Player)
     --Used to fix D&D Framework bug

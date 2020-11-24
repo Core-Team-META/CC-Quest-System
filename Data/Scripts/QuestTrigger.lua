@@ -29,7 +29,7 @@ local questResName = Quests.GetResourceName(QuestID)
 function OnInteracted(_, other)
 	if other:IsA("Player") and other == LocalPlayer and other:GetResource(questResName) > 0 then
 		prop.isEnabled = false
-		Events.BroadcastToServer("QuestTriggerServer.ItemPickup", questResName)
+		Events.BroadcastToServer("QuestTriggerServer.ItemPickup", questResName, Objective)
 	end
 end
 
@@ -46,6 +46,6 @@ Trigger.interactedEvent:Connect(OnInteracted)
 LocalPlayer.resourceChangedEvent:Connect(OnResourceChanged)
 
 Task.Wait(5)
-if LocalPlayer:GetResource(questResName) == 2 then
+if Quests.IsInProgress(LocalPlayer:GetResource(questResName)) then
 	prop.isEnabled = true
 end

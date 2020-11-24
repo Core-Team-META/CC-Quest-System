@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 6380074869628201153
-  Name: "QuestGiverControllerServer"
+  Name: "QuesController_Server"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

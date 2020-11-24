@@ -21,7 +21,7 @@ Objects {
   ChildIds: 14982843161775482339
   ChildIds: 10163127600253082303
   ChildIds: 298909095617905417
-  ChildIds: 14171780112296459774
+  ChildIds: 1891687057998311815
   ChildIds: 8282520083590187659
   UnregisteredParameters {
   }
@@ -69,7 +69,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14171780112296459774
+  Id: 1891687057998311815
   Name: "RPG Quest System"
   Transform {
     Location {
@@ -84,12 +84,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 1439820558867442250
-  ChildIds: 369906238347109753
-  ChildIds: 6250760380711323358
-  ChildIds: 16958816965416335525
-  ChildIds: 17748737093143482437
-  ChildIds: 6019811347730215290
+  ChildIds: 14443503517354804808
+  ChildIds: 5144154020921029740
+  ChildIds: 16119488438927916119
+  ChildIds: 10585878084294503257
+  ChildIds: 5068398818975187629
+  ChildIds: 14826526240847080631
   UnregisteredParameters {
     Overrides {
       Name: "cs:UseHeirarchyData"
@@ -110,15 +110,15 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 14171780112296459774
-    SubobjectId: 1093126088134162781
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 1891687057998311815
+    SubobjectId: 14269959248513539411
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
     WasRoot: true
   }
 }
 Objects {
-  Id: 6019811347730215290
+  Id: 14826526240847080631
   Name: "ServerContext"
   Transform {
     Location {
@@ -134,9 +134,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14171780112296459774
-  ChildIds: 16392316885432445333
-  ChildIds: 365132285067101173
+  ParentId: 1891687057998311815
+  ChildIds: 6347844366819831502
+  ChildIds: 10335197446097817594
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -147,14 +147,14 @@ Objects {
     Type: Server
   }
   InstanceHistory {
-    SelfId: 6019811347730215290
-    SubobjectId: 10956549847393629657
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 14826526240847080631
+    SubobjectId: 1264363606199287907
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 365132285067101173
+  Id: 10335197446097817594
   Name: "QuestSystemHelper"
   Transform {
     Location {
@@ -167,7 +167,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6019811347730215290
+  ParentId: 14826526240847080631
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -180,15 +182,15 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 365132285067101173
-    SubobjectId: 14886335684316055382
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 10335197446097817594
+    SubobjectId: 5991041352910840622
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 16392316885432445333
-  Name: "QuestGiverController-Server"
+  Id: 6347844366819831502
+  Name: "QuestController_Server"
   Transform {
     Location {
     }
@@ -201,7 +203,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6019811347730215290
+  ParentId: 14826526240847080631
   UnregisteredParameters {
     Overrides {
       Name: "cs:ModuleManager"
@@ -222,14 +224,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 16392316885432445333
-    SubobjectId: 2952923007989083446
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 6347844366819831502
+    SubobjectId: 9534571066173735450
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 17748737093143482437
+  Id: 5068398818975187629
   Name: "QuestUI"
   Transform {
     Location {
@@ -245,8 +247,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14171780112296459774
-  ChildIds: 6677750833973771424
+  ParentId: 1891687057998311815
+  ChildIds: 4602730751820708957
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -257,14 +259,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 17748737093143482437
-    SubobjectId: 4456303956545443046
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5068398818975187629
+    SubobjectId: 11105624689488490105
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 6677750833973771424
+  Id: 4602730751820708957
   Name: "Quest Panels"
   Transform {
     Location {
@@ -277,9 +279,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17748737093143482437
-  ChildIds: 13897673214115355653
-  ChildIds: 5474673910039052735
+  ParentId: 5068398818975187629
+  ChildIds: 8495153748504250103
+  ChildIds: 12282324719778489900
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -289,14 +291,14 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 6677750833973771424
-    SubobjectId: 10893070118791804931
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 4602730751820708957
+    SubobjectId: 16404823662861504649
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 5474673910039052735
+  Id: 12282324719778489900
   Name: "QuestContainer"
   Transform {
     Location {
@@ -309,11 +311,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6677750833973771424
-  ChildIds: 5777924015546422223
-  ChildIds: 4978985563805060939
-  ChildIds: 14659159940601750775
-  ChildIds: 5784737313475102161
+  ParentId: 4602730751820708957
+  ChildIds: 13822748214303197579
+  ChildIds: 2328085980039266435
+  ChildIds: 13590843895640666494
+  ChildIds: 4741778212648074612
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -342,14 +344,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5474673910039052735
-    SubobjectId: 9258877903107048732
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 12282324719778489900
+    SubobjectId: 8519154964988627704
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 5784737313475102161
+  Id: 4741778212648074612
   Name: "QuestJournal"
   Transform {
     Location {
@@ -362,11 +364,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5474673910039052735
-  ChildIds: 1879913147365277052
-  ChildIds: 15243574196382539483
-  ChildIds: 9316587945218374463
-  ChildIds: 10160134982882497275
+  ParentId: 12282324719778489900
+  ChildIds: 11648776249719610288
+  ChildIds: 12606571110381608655
+  ChildIds: 17036880470829381020
+  ChildIds: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -398,14 +400,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5784737313475102161
-    SubobjectId: 11223064279201825138
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 4741778212648074612
+    SubobjectId: 11351222971127648672
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 10160134982882497275
+  Id: 17703223453722675001
   Name: "QuestInfoParentPanel"
   Transform {
     Location {
@@ -418,15 +420,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5784737313475102161
-  ChildIds: 16944018405223723806
-  ChildIds: 7651772468664811267
-  ChildIds: 3836511885233861486
-  ChildIds: 9731410439373091
-  ChildIds: 174231111628295298
-  ChildIds: 893587512068544691
-  ChildIds: 5526682651640140851
-  ChildIds: 12003271796021964761
+  ParentId: 4741778212648074612
+  ChildIds: 11929375881008359573
+  ChildIds: 11431141910596270805
+  ChildIds: 7307623567805275462
+  ChildIds: 16721222657872059487
+  ChildIds: 3086732155677963677
+  ChildIds: 5092144537419565993
+  ChildIds: 12561671742279314060
+  ChildIds: 460575156593722699
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -457,14 +459,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10160134982882497275
-    SubobjectId: 5082270811858523736
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 17703223453722675001
+    SubobjectId: 3019646922358221805
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 12003271796021964761
+  Id: 460575156593722699
   Name: "TrackQuestButton"
   Transform {
     Location {
@@ -480,7 +482,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
+  ParentId: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -547,14 +549,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12003271796021964761
-    SubobjectId: 7859879305768627066
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 460575156593722699
+    SubobjectId: 15721434792289495455
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 5526682651640140851
+  Id: 12561671742279314060
   Name: "ProgressText"
   Transform {
     Location {
@@ -567,7 +569,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
+  ParentId: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -612,14 +614,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5526682651640140851
-    SubobjectId: 9742814422417658000
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 12561671742279314060
+    SubobjectId: 8222885634337703512
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 893587512068544691
+  Id: 5092144537419565993
   Name: "QuestProgress"
   Transform {
     Location {
@@ -632,7 +634,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
+  ParentId: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -677,14 +679,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 893587512068544691
-    SubobjectId: 14402933358768217104
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5092144537419565993
+    SubobjectId: 11160875858113374077
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 174231111628295298
+  Id: 3086732155677963677
   Name: "UI Image"
   Transform {
     Location {
@@ -697,7 +699,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
+  ParentId: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -740,14 +742,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 174231111628295298
-    SubobjectId: 14550330819840296993
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 3086732155677963677
+    SubobjectId: 17771148627473307977
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 9731410439373091
+  Id: 16721222657872059487
   Name: "QuestInfoPanel"
   Transform {
     Location {
@@ -760,8 +762,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
-  ChildIds: 17344268065815277113
+  ParentId: 17703223453722675001
+  ChildIds: 12900181905977520721
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -793,14 +795,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 9731410439373091
-    SubobjectId: 14674209888640812416
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 16721222657872059487
+    SubobjectId: 3766201596844650635
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 17344268065815277113
+  Id: 12900181905977520721
   Name: "QuestDescText"
   Transform {
     Location {
@@ -813,7 +815,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9731410439373091
+  ParentId: 16721222657872059487
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -860,14 +862,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17344268065815277113
-    SubobjectId: 4266282577603652250
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 12900181905977520721
+    SubobjectId: 8020677941274107525
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3836511885233861486
+  Id: 7307623567805275462
   Name: "ProgressBackground"
   Transform {
     Location {
@@ -880,7 +882,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
+  ParentId: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -919,14 +921,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3836511885233861486
-    SubobjectId: 18354932329136224205
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 7307623567805275462
+    SubobjectId: 13339785126407319954
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 7651772468664811267
+  Id: 11431141910596270805
   Name: "Background"
   Transform {
     Location {
@@ -939,7 +941,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
+  ParentId: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -978,14 +980,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 7651772468664811267
-    SubobjectId: 11652879365338037152
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 11431141910596270805
+    SubobjectId: 4821692805081060865
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 16944018405223723806
+  Id: 11929375881008359573
   Name: "QuestName"
   Transform {
     Location {
@@ -998,7 +1000,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10160134982882497275
+  ParentId: 17703223453722675001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1042,14 +1044,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 16944018405223723806
-    SubobjectId: 2351697560396675005
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 11929375881008359573
+    SubobjectId: 8774176625297179713
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 9316587945218374463
+  Id: 17036880470829381020
   Name: "ListofQuestPanel"
   Transform {
     Location {
@@ -1062,7 +1064,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5784737313475102161
+  ParentId: 4741778212648074612
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1093,14 +1095,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 9316587945218374463
-    SubobjectId: 5389961923934535580
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 17036880470829381020
+    SubobjectId: 3469640376310126920
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 15243574196382539483
+  Id: 12606571110381608655
   Name: "ParentFrame"
   Transform {
     Location {
@@ -1113,7 +1115,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5784737313475102161
+  ParentId: 4741778212648074612
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1155,14 +1157,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15243574196382539483
-    SubobjectId: 1732719791424395896
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 12606571110381608655
+    SubobjectId: 8266923012695863835
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 1879913147365277052
+  Id: 11648776249719610288
   Name: "ParentBackground"
   Transform {
     Location {
@@ -1175,7 +1177,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5784737313475102161
+  ParentId: 4741778212648074612
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1213,14 +1215,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 1879913147365277052
-    SubobjectId: 15100883477934504415
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 11648776249719610288
+    SubobjectId: 9070618294893492068
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 14659159940601750775
+  Id: 13590843895640666494
   Name: "QuestRewardPopup"
   Transform {
     Location {
@@ -1236,12 +1238,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5474673910039052735
-  ChildIds: 3546861902297334461
-  ChildIds: 3213310060306509996
-  ChildIds: 12453374889542967200
-  ChildIds: 9328935765244035945
-  ChildIds: 3836620512295477458
+  ParentId: 12282324719778489900
+  ChildIds: 9957145116434695276
+  ChildIds: 13476254270713475529
+  ChildIds: 9262029443791067497
+  ChildIds: 3354294979667788606
+  ChildIds: 9892079199595536400
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1274,14 +1276,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14659159940601750775
-    SubobjectId: 65331621844672596
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 13590843895640666494
+    SubobjectId: 6977742184035442090
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3836620512295477458
+  Id: 9892079199595536400
   Name: "Reward"
   Transform {
     Location {
@@ -1294,12 +1296,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14659159940601750775
+  ParentId: 13590843895640666494
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
       ObjectReference {
-        SelfId: 3836620512295477458
+        SelfId: 9892079199595536400
       }
     }
   }
@@ -1347,14 +1349,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3836620512295477458
-    SubobjectId: 18354909051324441713
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 9892079199595536400
+    SubobjectId: 6128891740933737668
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 9328935765244035945
+  Id: 3354294979667788606
   Name: "Reward"
   Transform {
     Location {
@@ -1367,7 +1369,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14659159940601750775
+  ParentId: 13590843895640666494
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1412,14 +1414,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 9328935765244035945
-    SubobjectId: 5400061321047443402
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 3354294979667788606
+    SubobjectId: 17493479092836364266
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 12453374889542967200
+  Id: 9262029443791067497
   Name: "RewardIcon"
   Transform {
     Location {
@@ -1432,7 +1434,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14659159940601750775
+  ParentId: 13590843895640666494
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1475,14 +1477,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12453374889542967200
-    SubobjectId: 7445735464891882243
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 9262029443791067497
+    SubobjectId: 6683585642257085885
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3213310060306509996
+  Id: 13476254270713475529
   Name: "QuestFrame"
   Transform {
     Location {
@@ -1495,7 +1497,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14659159940601750775
+  ParentId: 13590843895640666494
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1537,14 +1539,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3213310060306509996
-    SubobjectId: 16649859458302800911
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 13476254270713475529
+    SubobjectId: 7443551694408244509
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3546861902297334461
+  Id: 9957145116434695276
   Name: "QuestBackground"
   Transform {
     Location {
@@ -1557,7 +1559,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14659159940601750775
+  ParentId: 13590843895640666494
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1596,14 +1598,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3546861902297334461
-    SubobjectId: 18068207046726927902
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 9957145116434695276
+    SubobjectId: 6226061238570936504
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 4978985563805060939
+  Id: 2328085980039266435
   Name: "QuestCompletePanel"
   Transform {
     Location {
@@ -1619,14 +1621,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5474673910039052735
-  ChildIds: 3251060567329756496
-  ChildIds: 8422698321710638672
-  ChildIds: 6930348029286373122
-  ChildIds: 3335937743705838405
-  ChildIds: 17266379195377378168
-  ChildIds: 12766561492914037608
-  ChildIds: 8835749009627618159
+  ParentId: 12282324719778489900
+  ChildIds: 6579428306141782382
+  ChildIds: 5296034034607270464
+  ChildIds: 9564541806960363556
+  ChildIds: 12137053763255153687
+  ChildIds: 8983439257750808361
+  ChildIds: 9296570768084069204
+  ChildIds: 5673100135419116999
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1659,14 +1661,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 4978985563805060939
-    SubobjectId: 10277001535740496872
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 2328085980039266435
+    SubobjectId: 18160359583335099479
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 8835749009627618159
+  Id: 5673100135419116999
   Name: "CompleteButton"
   Transform {
     Location {
@@ -1679,7 +1681,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4978985563805060939
+  ParentId: 2328085980039266435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1745,14 +1747,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 8835749009627618159
-    SubobjectId: 12761288635694702540
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5673100135419116999
+    SubobjectId: 10588927596842586387
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 12766561492914037608
+  Id: 9296570768084069204
   Name: "RewardIcon"
   Transform {
     Location {
@@ -1765,7 +1767,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4978985563805060939
+  ParentId: 2328085980039266435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1809,14 +1811,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12766561492914037608
-    SubobjectId: 8839482526960494539
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 9296570768084069204
+    SubobjectId: 6723178064968943488
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 17266379195377378168
+  Id: 8983439257750808361
   Name: "Reward"
   Transform {
     Location {
@@ -1829,7 +1831,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4978985563805060939
+  ParentId: 2328085980039266435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1874,14 +1876,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17266379195377378168
-    SubobjectId: 2601205824218671067
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 8983439257750808361
+    SubobjectId: 11592860720824011773
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3335937743705838405
+  Id: 12137053763255153687
   Name: "QuestCompleteText"
   Transform {
     Location {
@@ -1894,7 +1896,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4978985563805060939
+  ParentId: 2328085980039266435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1939,14 +1941,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3335937743705838405
-    SubobjectId: 16558741029448407014
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 12137053763255153687
+    SubobjectId: 8369642043741722819
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 6930348029286373122
+  Id: 9564541806960363556
   Name: "QuestName"
   Transform {
     Location {
@@ -1959,7 +1961,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4978985563805060939
+  ParentId: 2328085980039266435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2003,14 +2005,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 6930348029286373122
-    SubobjectId: 12369800892082525089
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 9564541806960363556
+    SubobjectId: 6410204565160633584
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 8422698321710638672
+  Id: 5296034034607270464
   Name: "QuestFrame"
   Transform {
     Location {
@@ -2023,7 +2025,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4978985563805060939
+  ParentId: 2328085980039266435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2065,14 +2067,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 8422698321710638672
-    SubobjectId: 13791352401477083891
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5296034034607270464
+    SubobjectId: 10751994375050839700
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3251060567329756496
+  Id: 6579428306141782382
   Name: "QuestBackground"
   Transform {
     Location {
@@ -2085,7 +2087,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4978985563805060939
+  ParentId: 2328085980039266435
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2123,14 +2125,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3251060567329756496
-    SubobjectId: 16616524314902696435
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 6579428306141782382
+    SubobjectId: 9729842416910421434
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 5777924015546422223
+  Id: 13822748214303197579
   Name: "QuestPanel"
   Transform {
     Location {
@@ -2144,17 +2146,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5474673910039052735
-  ChildIds: 11611704434809682464
-  ChildIds: 2718017630111787317
-  ChildIds: 17061423611609851072
-  ChildIds: 11331064796289145044
-  ChildIds: 18084097885073903491
-  ChildIds: 8034421636731720971
-  ChildIds: 4069088143785052686
-  ChildIds: 3110273844780317185
-  ChildIds: 7863561642022009780
-  ChildIds: 2675440352864346828
+  ParentId: 12282324719778489900
+  ChildIds: 5551135350342718288
+  ChildIds: 4886309310640120177
+  ChildIds: 207766469165859773
+  ChildIds: 18039620098152406397
+  ChildIds: 18093021433305569461
+  ChildIds: 3930665481620676677
+  ChildIds: 13570279801813501457
+  ChildIds: 14061414522107428574
+  ChildIds: 1674304617794645848
+  ChildIds: 16953849816218507537
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2187,14 +2189,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5777924015546422223
-    SubobjectId: 11216383958122305388
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 13822748214303197579
+    SubobjectId: 7178121307462526303
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 2675440352864346828
+  Id: 16953849816218507537
   Name: "UI Scroll Panel"
   Transform {
     Location {
@@ -2208,8 +2210,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
-  ChildIds: 5164526811179431515
+  ParentId: 13822748214303197579
+  ChildIds: 12635505621918469050
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2242,14 +2244,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2675440352864346828
-    SubobjectId: 17196648129255663215
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 16953849816218507537
+    SubobjectId: 3963633430952211909
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 5164526811179431515
+  Id: 12635505621918469050
   Name: "QuestDescText"
   Transform {
     Location {
@@ -2262,7 +2264,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2675440352864346828
+  ParentId: 16953849816218507537
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2306,14 +2308,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5164526811179431515
-    SubobjectId: 10100381313661301496
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 12635505621918469050
+    SubobjectId: 8292215864948991854
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 7863561642022009780
+  Id: 1674304617794645848
   Name: "UI Image"
   Transform {
     Location {
@@ -2327,7 +2329,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2368,14 +2370,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 7863561642022009780
-    SubobjectId: 12008616587462000407
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 1674304617794645848
+    SubobjectId: 14660861803147314060
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3110273844780317185
+  Id: 14061414522107428574
   Name: "QuestName"
   Transform {
     Location {
@@ -2388,7 +2390,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2433,14 +2435,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3110273844780317185
-    SubobjectId: 16189947094797352610
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 14061414522107428574
+    SubobjectId: 2264647667948261898
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 4069088143785052686
+  Id: 13570279801813501457
   Name: "UI Image"
   Transform {
     Location {
@@ -2454,7 +2456,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2495,14 +2497,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 4069088143785052686
-    SubobjectId: 17581939233572851373
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 13570279801813501457
+    SubobjectId: 6925087736844184261
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 8034421636731720971
+  Id: 3930665481620676677
   Name: "Decline Button"
   Transform {
     Location {
@@ -2515,7 +2517,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2581,14 +2583,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 8034421636731720971
-    SubobjectId: 11887296738342048168
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 3930665481620676677
+    SubobjectId: 16916941189832346769
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 18084097885073903491
+  Id: 18093021433305569461
   Name: "Accept Button"
   Transform {
     Location {
@@ -2601,7 +2603,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2667,14 +2669,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 18084097885073903491
-    SubobjectId: 3562428366561463072
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 18093021433305569461
+    SubobjectId: 2836942507461801057
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 11331064796289145044
+  Id: 18039620098152406397
   Name: "RewardIcon"
   Transform {
     Location {
@@ -2687,7 +2689,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2731,14 +2733,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 11331064796289145044
-    SubobjectId: 6253197411522272375
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 18039620098152406397
+    SubobjectId: 2742711866728739241
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 17061423611609851072
+  Id: 207766469165859773
   Name: "RewardText"
   Transform {
     Location {
@@ -2751,7 +2753,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2796,14 +2798,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17061423611609851072
-    SubobjectId: 2828696998316957795
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 207766469165859773
+    SubobjectId: 16045104530393411433
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 2718017630111787317
+  Id: 4886309310640120177
   Name: "QuestFrame"
   Transform {
     Location {
@@ -2816,7 +2818,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2860,14 +2862,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2718017630111787317
-    SubobjectId: 17167581238502698390
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 4886309310640120177
+    SubobjectId: 11494914003052858789
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 11611704434809682464
+  Id: 5551135350342718288
   Name: "QuestBackground"
   Transform {
     Location {
@@ -2880,7 +2882,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5777924015546422223
+  ParentId: 13822748214303197579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2918,14 +2920,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 11611704434809682464
-    SubobjectId: 7683942673832115843
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5551135350342718288
+    SubobjectId: 10466386696680832900
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 13897673214115355653
+  Id: 8495153748504250103
   Name: "QuestJournal"
   Transform {
     Location {
@@ -2941,12 +2943,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6677750833973771424
+  ParentId: 4602730751820708957
   UnregisteredParameters {
     Overrides {
       Name: "cs:ParentPanel"
       ObjectReference {
-        SelfId: 5784737313475102161
+        SelfId: 4741778212648074612
       }
     }
     Overrides {
@@ -2958,37 +2960,37 @@ Objects {
     Overrides {
       Name: "cs:ListofQuestPanel"
       ObjectReference {
-        SelfId: 9316587945218374463
+        SelfId: 17036880470829381020
       }
     }
     Overrides {
       Name: "cs:QuestName"
       ObjectReference {
-        SelfId: 16944018405223723806
+        SelfId: 11929375881008359573
       }
     }
     Overrides {
       Name: "cs:QuestDescText"
       ObjectReference {
-        SelfId: 17344268065815277113
+        SelfId: 12900181905977520721
       }
     }
     Overrides {
       Name: "cs:QuestProgress"
       ObjectReference {
-        SelfId: 893587512068544691
+        SelfId: 5092144537419565993
       }
     }
     Overrides {
       Name: "cs:ProgressText"
       ObjectReference {
-        SelfId: 5526682651640140851
+        SelfId: 12561671742279314060
       }
     }
     Overrides {
       Name: "cs:TrackQuestButton"
       ObjectReference {
-        SelfId: 12003271796021964761
+        SelfId: 460575156593722699
       }
     }
   }
@@ -3004,14 +3006,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13897673214115355653
-    SubobjectId: 817863651097335974
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 8495153748504250103
+    SubobjectId: 12226519121745865251
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 16958816965416335525
+  Id: 10585878084294503257
   Name: "QuestObjectives"
   Transform {
     Location {
@@ -3028,8 +3030,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14171780112296459774
-  ChildIds: 15745174774925270539
+  ParentId: 1891687057998311815
+  ChildIds: 421609391789719330
+  ChildIds: 13007702452873268442
+  ChildIds: 6239936475963413100
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3040,14 +3044,988 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 16958816965416335525
-    SubobjectId: 2368335549469621254
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 10585878084294503257
+    SubobjectId: 5665830731041277837
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 15745174774925270539
+  Id: 6239936475963413100
+  Name: "LostSword"
+  Transform {
+    Location {
+      X: 19.3356934
+      Y: 2.4418335
+      Z: 111.154831
+    }
+    Rotation {
+      Pitch: 2.04905664e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10585878084294503257
+  ChildIds: 10286707309405583350
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:Objective"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:QuestID:tooltip"
+      String: "This is the QuestID that this objective belongs too. If a player has the quest that this objective is connected to, it\'ll become visable. If the player collects it, progress towards the quest will be counted."
+    }
+    Overrides {
+      Name: "cs:Objective:tooltip"
+      String: "Currently this isn\'t functional but will be used as a way to identify which order if any the objectives must be collected."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6239936475963413100
+    SubobjectId: 10002844580263706296
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 10286707309405583350
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 0.31574598
+      Yaw: 92.7620926
+      Roll: -100.677811
+    }
+    Scale {
+      X: 1.23202884
+      Y: 1.23202884
+      Z: 1.23202884
+    }
+  }
+  ParentId: 6239936475963413100
+  ChildIds: 5166183366655492610
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Objective"
+      Int: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 10286707309405583350
+    SubobjectId: 5947059125829163810
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 5166183366655492610
+  Name: "Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 78.96
+      Yaw: 104.574806
+      Roll: -165.367615
+    }
+    Scale {
+      X: 0.81166929
+      Y: 0.81166929
+      Z: 0.81166929
+    }
+  }
+  ParentId: 10286707309405583350
+  ChildIds: 6030781170407406299
+  ChildIds: 13039876223070311803
+  ChildIds: 5016769759846392926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5166183366655492610
+    SubobjectId: 11238859767307448022
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 5016769759846392926
+  Name: "Fantasy Weapon - Sword 02 (Prop)"
+  Transform {
+    Location {
+      X: -37.3607
+      Y: -5.07825189e-06
+      Z: 6.67472267
+    }
+    Rotation {
+      Pitch: -74.6309814
+      Yaw: -179.999969
+      Roll: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5166183366655492610
+  ChildIds: 17740145240986692423
+  ChildIds: 7665796940051229798
+  ChildIds: 4102890583202432197
+  ChildIds: 6955314738502613608
+  ChildIds: 12886625591719547818
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5016769759846392926
+    SubobjectId: 11085239448321034378
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 12886625591719547818
+  Name: "Fantasy Pommel 03"
+  Transform {
+    Location {
+      Z: -15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5016769759846392926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9675776263369201294
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12886625591719547818
+    SubobjectId: 7971361156996841342
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 6955314738502613608
+  Name: "Fantasy Pommel 04"
+  Transform {
+    Location {
+      Z: -22.9725876
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1.39352274
+      Y: 1.39352274
+      Z: 1.39352274
+    }
+  }
+  ParentId: 5016769759846392926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12510064410993333055
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6955314738502613608
+    SubobjectId: 13605294109303428796
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 4102890583202432197
+  Name: "Fantasy Sword Blade 03"
+  Transform {
+    Location {
+      Z: 17.9407806
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.6292454
+      Z: 1
+    }
+  }
+  ParentId: 5016769759846392926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4801985963367974663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4102890583202432197
+    SubobjectId: 16481466204030101521
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 7665796940051229798
+  Name: "Fantasy Sword Guard 01"
+  Transform {
+    Location {
+      Z: 8.69589615
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5016769759846392926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1920010878601219178
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7665796940051229798
+    SubobjectId: 13126843633632657586
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 17740145240986692423
+  Name: "Fantasy Sword Grip 01"
+  Transform {
+    Location {
+      Z: -17.4270153
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5016769759846392926
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3682206342183528038
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17740145240986692423
+    SubobjectId: 3060234520035542931
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 13039876223070311803
+  Name: "Trigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 0.315752804
+      Yaw: 92.7621078
+      Roll: -100.677849
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5166183366655492610
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Grab The Lost Sword"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 13039876223070311803
+    SubobjectId: 7547884927411911087
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 6030781170407406299
+  Name: "QuestTrigger"
+  Transform {
+    Location {
+      X: 3.91208315
+      Y: 6.20556641
+      Z: -0.194457769
+    }
+    Rotation {
+      Pitch: 0.315903068
+      Yaw: 92.7628174
+      Roll: -100.677895
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5166183366655492610
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Sword"
+      ObjectReference {
+        SelfId: 5166183366655492610
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 13039876223070311803
+      }
+    }
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 6239936475963413100
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2739815648079257768
+    }
+  }
+  InstanceHistory {
+    SelfId: 6030781170407406299
+    SubobjectId: 10374086316244407823
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 13007702452873268442
+  Name: "LostSword"
+  Transform {
+    Location {
+      X: -20.2645874
+      Y: 2.4418335
+      Z: -110.506134
+    }
+    Rotation {
+      Pitch: 2.04905664e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10585878084294503257
+  ChildIds: 18276954836695742566
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:Objective"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:QuestID:tooltip"
+      String: "This is the QuestID that this objective belongs too. If a player has the quest that this objective is connected to, it\'ll become visable. If the player collects it, progress towards the quest will be counted."
+    }
+    Overrides {
+      Name: "cs:Objective:tooltip"
+      String: "Currently this isn\'t functional but will be used as a way to identify which order if any the objectives must be collected."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13007702452873268442
+    SubobjectId: 7551744349050986510
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 18276954836695742566
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 0.31574598
+      Yaw: 92.7620926
+      Roll: -100.677811
+    }
+    Scale {
+      X: 1.23202884
+      Y: 1.23202884
+      Z: 1.23202884
+    }
+  }
+  ParentId: 13007702452873268442
+  ChildIds: 45691755202625342
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Objective"
+      Int: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 18276954836695742566
+    SubobjectId: 2444683399136875698
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 45691755202625342
+  Name: "Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 78.96
+      Yaw: 104.574806
+      Roll: -165.367615
+    }
+    Scale {
+      X: 0.81166929
+      Y: 0.81166929
+      Z: 0.81166929
+    }
+  }
+  ParentId: 18276954836695742566
+  ChildIds: 11544244946175956037
+  ChildIds: 10907225595884572453
+  ChildIds: 981524338466910723
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 45691755202625342
+    SubobjectId: 15919062942264742890
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 981524338466910723
+  Name: "Fantasy Weapon - Sword 02 (Prop)"
+  Transform {
+    Location {
+      X: -37.3607
+      Y: -5.07825189e-06
+      Z: 6.67472267
+    }
+    Rotation {
+      Pitch: -74.6309814
+      Yaw: -179.999969
+      Roll: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 45691755202625342
+  ChildIds: 9083966362042690362
+  ChildIds: 4827336758027170980
+  ChildIds: 16757040020280839684
+  ChildIds: 5546586444044622867
+  ChildIds: 10825333736892135940
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 981524338466910723
+    SubobjectId: 15120440064506207959
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 10825333736892135940
+  Name: "Fantasy Pommel 03"
+  Transform {
+    Location {
+      Z: -15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 981524338466910723
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9675776263369201294
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10825333736892135940
+    SubobjectId: 5364566307461371600
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 5546586444044622867
+  Name: "Fantasy Pommel 04"
+  Transform {
+    Location {
+      Z: -22.9725876
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1.39352274
+      Y: 1.39352274
+      Z: 1.39352274
+    }
+  }
+  ParentId: 981524338466910723
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12510064410993333055
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 5546586444044622867
+    SubobjectId: 10426085974194041031
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 16757040020280839684
+  Name: "Fantasy Sword Blade 03"
+  Transform {
+    Location {
+      Z: 17.9407806
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.6292454
+      Z: 1
+    }
+  }
+  ParentId: 981524338466910723
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4801985963367974663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16757040020280839684
+    SubobjectId: 3802581878596854480
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 4827336758027170980
+  Name: "Fantasy Sword Guard 01"
+  Transform {
+    Location {
+      Z: 8.69589615
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 981524338466910723
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1920010878601219178
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4827336758027170980
+    SubobjectId: 11436801349063759984
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 9083966362042690362
+  Name: "Fantasy Sword Grip 01"
+  Transform {
+    Location {
+      Z: -17.4270153
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 981524338466910723
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3682206342183528038
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9083966362042690362
+    SubobjectId: 11698434596925638638
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 10907225595884572453
+  Name: "Trigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 0.315752804
+      Yaw: 92.7621078
+      Roll: -100.677849
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 45691755202625342
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Grab The Lost Sword"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 10907225595884572453
+    SubobjectId: 5410992403139912689
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 11544244946175956037
+  Name: "QuestTrigger"
+  Transform {
+    Location {
+      X: 3.91208315
+      Y: 6.20556641
+      Z: -0.194457769
+    }
+    Rotation {
+      Pitch: 0.315903068
+      Yaw: 92.7628174
+      Roll: -100.677895
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 45691755202625342
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Sword"
+      ObjectReference {
+        SelfId: 45691755202625342
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 10907225595884572453
+      }
+    }
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 13007702452873268442
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2739815648079257768
+    }
+  }
+  InstanceHistory {
+    SelfId: 11544244946175956037
+    SubobjectId: 8970306871334860945
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 421609391789719330
   Name: "LostSword"
   Transform {
     Location {
@@ -3063,8 +4041,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16958816965416335525
-  ChildIds: 17225042098706905792
+  ParentId: 10585878084294503257
+  ChildIds: 2904309673479690709
   UnregisteredParameters {
     Overrides {
       Name: "cs:QuestID"
@@ -3093,14 +4071,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 15745174774925270539
-    SubobjectId: 1226614651120147112
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 421609391789719330
+    SubobjectId: 15677118873681417206
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 17225042098706905792
+  Id: 2904309673479690709
   Name: "ClientContext"
   Transform {
     Location {
@@ -3116,8 +4094,8 @@ Objects {
       Z: 1.23202884
     }
   }
-  ParentId: 15745174774925270539
-  ChildIds: 6090706952203945070
+  ParentId: 421609391789719330
+  ChildIds: 4356799317291652612
   UnregisteredParameters {
     Overrides {
       Name: "cs:Objective"
@@ -3133,14 +4111,14 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 17225042098706905792
-    SubobjectId: 2633605266075041379
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 2904309673479690709
+    SubobjectId: 17584205021661017345
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 6090706952203945070
+  Id: 4356799317291652612
   Name: "Sword"
   Transform {
     Location {
@@ -3156,10 +4134,10 @@ Objects {
       Z: 0.81166929
     }
   }
-  ParentId: 17225042098706905792
-  ChildIds: 3104046028558070865
-  ChildIds: 16517024582791147830
-  ChildIds: 10477482518607798766
+  ParentId: 2904309673479690709
+  ChildIds: 2318658042588791498
+  ChildIds: 4465905965872834635
+  ChildIds: 961308036807568002
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3170,64 +4148,267 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 6090706952203945070
-    SubobjectId: 11457543638453354701
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 4356799317291652612
+    SubobjectId: 16158914271690308304
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 10477482518607798766
+  Id: 961308036807568002
   Name: "Fantasy Weapon - Sword 02 (Prop)"
   Transform {
+    Location {
+      X: -37.3607
+      Y: -5.07825189e-06
+      Z: 6.67472267
+    }
+    Rotation {
+      Pitch: -74.6309814
+      Yaw: -179.999969
+      Roll: -179.999969
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 6090706952203945070
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17655973224589967262
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Weapon - Sword 02 (Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -37.3607
-            Y: -5.07825189e-06
-            Z: 6.67472267
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -74.6309814
-            Yaw: -179.999969
-            Roll: -179.999969
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15236360488181826829
-    }
+  ParentId: 4356799317291652612
+  ChildIds: 17033574549148075654
+  ChildIds: 11910916691021027827
+  ChildIds: 1783479322524630764
+  ChildIds: 7223399735653646773
+  ChildIds: 483389798184130617
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 961308036807568002
+    SubobjectId: 15068705287079118422
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 16517024582791147830
+  Id: 483389798184130617
+  Name: "Fantasy Pommel 03"
+  Transform {
+    Location {
+      Z: -15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 961308036807568002
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9675776263369201294
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 483389798184130617
+    SubobjectId: 15779719716011144429
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 7223399735653646773
+  Name: "Fantasy Pommel 04"
+  Transform {
+    Location {
+      Z: -22.9725876
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1.39352274
+      Y: 1.39352274
+      Z: 1.39352274
+    }
+  }
+  ParentId: 961308036807568002
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12510064410993333055
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7223399735653646773
+    SubobjectId: 13292128860562468193
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 1783479322524630764
+  Name: "Fantasy Sword Blade 03"
+  Transform {
+    Location {
+      Z: 17.9407806
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.6292454
+      Z: 1
+    }
+  }
+  ParentId: 961308036807568002
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4801985963367974663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1783479322524630764
+    SubobjectId: 14162057148809859640
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 11910916691021027827
+  Name: "Fantasy Sword Guard 01"
+  Transform {
+    Location {
+      Z: 8.69589615
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 961308036807568002
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1920010878601219178
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11910916691021027827
+    SubobjectId: 8720543999281476903
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 17033574549148075654
+  Name: "Fantasy Sword Grip 01"
+  Transform {
+    Location {
+      Z: -17.4270153
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 961308036807568002
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3682206342183528038
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17033574549148075654
+    SubobjectId: 3470835785456511570
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
+  }
+}
+Objects {
+  Id: 4465905965872834635
   Name: "Trigger"
   Transform {
     Location {
@@ -3243,7 +4424,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6090706952203945070
+  ParentId: 4356799317291652612
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3264,14 +4445,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 16517024582791147830
-    SubobjectId: 3368574698210981269
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 4465905965872834635
+    SubobjectId: 16263517362008327327
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3104046028558070865
+  Id: 2318658042588791498
   Name: "QuestTrigger"
   Transform {
     Location {
@@ -3290,24 +4471,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6090706952203945070
+  ParentId: 4356799317291652612
   UnregisteredParameters {
     Overrides {
       Name: "cs:Sword"
       ObjectReference {
-        SelfId: 6090706952203945070
+        SelfId: 4356799317291652612
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 16517024582791147830
+        SelfId: 4465905965872834635
       }
     }
     Overrides {
       Name: "cs:Root"
       ObjectReference {
-        SelfId: 15745174774925270539
+        SelfId: 421609391789719330
       }
     }
   }
@@ -3323,14 +4504,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3104046028558070865
-    SubobjectId: 16182594430383468786
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 2318658042588791498
+    SubobjectId: 18186674645067492894
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 6250760380711323358
+  Id: 16119488438927916119
   Name: "QuestGivers"
   Transform {
     Location {
@@ -3346,9 +4527,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14171780112296459774
-  ChildIds: 5064000719229012819
-  ChildIds: 1246759313591253536
+  ParentId: 1891687057998311815
+  ChildIds: 9143041184237827790
+  ChildIds: 4295698184613531074
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3359,14 +4540,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 6250760380711323358
-    SubobjectId: 11329086325580137085
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 16119488438927916119
+    SubobjectId: 286654069124239491
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 1246759313591253536
+  Id: 4295698184613531074
   Name: "NPC Quest Giver"
   Transform {
     Location {
@@ -3382,8 +4563,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6250760380711323358
-  ChildIds: 5989077741298885556
+  ParentId: 16119488438927916119
+  ChildIds: 5775378679510309947
   UnregisteredParameters {
     Overrides {
       Name: "cs:HasQuest"
@@ -3472,14 +4653,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 5064000719229012819
-    SubobjectId: 10214488710748377072
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 4295698184613531074
+    SubobjectId: 16705233871572853014
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 5989077741298885556
+  Id: 5775378679510309947
   Name: "ClientContext"
   Transform {
     Location {
@@ -3492,9 +4673,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1246759313591253536
-  ChildIds: 2582055167140623298
-  ChildIds: 6963324134319778146
+  ParentId: 4295698184613531074
+  ChildIds: 13873582662638245629
+  ChildIds: 6279089479203963757
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -3504,14 +4685,14 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 4953643381814398928
-    SubobjectId: 10320340386602666867
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5775378679510309947
+    SubobjectId: 10119534764652359919
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 6963324134319778146
+  Id: 6279089479203963757
   Name: "ClientInfo"
   Transform {
     Location {
@@ -3524,10 +4705,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5989077741298885556
-  ChildIds: 4320239543371230004
-  ChildIds: 6147574885291381298
-  ChildIds: 18169316286183139127
+  ParentId: 5775378679510309947
+  ChildIds: 8002515401578925704
+  ChildIds: 5209217047340766460
+  ChildIds: 17613578441172937712
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3538,14 +4719,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 4772034850790238380
-    SubobjectId: 9925505757781961743
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 6279089479203963757
+    SubobjectId: 10045918416199102393
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 18169316286183139127
+  Id: 17613578441172937712
   Name: "Trigger"
   Transform {
     Location {
@@ -3559,8 +4740,8 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 6963324134319778146
-  ChildIds: 17821294398636491577
+  ParentId: 6279089479203963757
+  ChildIds: 1343971870260410156
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -3578,14 +4759,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14730800726603021704
-    SubobjectId: 570136057613383979
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 17613578441172937712
+    SubobjectId: 2898500987034863396
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 17821294398636491577
+  Id: 1343971870260410156
   Name: "QuestDialogNPC"
   Transform {
     Location {
@@ -3602,66 +4783,66 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18169316286183139127
+  ParentId: 17613578441172937712
   UnregisteredParameters {
     Overrides {
       Name: "cs:AcceptButton"
       ObjectReference {
-        SelfId: 18084097885073903491
+        SelfId: 18093021433305569461
       }
     }
     Overrides {
       Name: "cs:CompleteButton"
       ObjectReference {
-        SelfId: 8835749009627618159
+        SelfId: 5673100135419116999
       }
     }
     Overrides {
       Name: "cs:DeclineButton"
       ObjectReference {
-        SelfId: 8034421636731720971
+        SelfId: 3930665481620676677
       }
     }
     Overrides {
       Name: "cs:QuestDescText"
       ObjectReference {
-        SelfId: 5164526811179431515
+        SelfId: 12635505621918469050
       }
     }
     Overrides {
       Name: "cs:QuestGiverPanel"
       ObjectReference {
-        SelfId: 5777924015546422223
+        SelfId: 13822748214303197579
       }
     }
     Overrides {
       Name: "cs:QuestGiverPanel_0"
       ObjectReference {
-        SelfId: 4978985563805060939
+        SelfId: 2328085980039266435
       }
     }
     Overrides {
       Name: "cs:QuestName"
       ObjectReference {
-        SelfId: 3110273844780317185
+        SelfId: 14061414522107428574
       }
     }
     Overrides {
       Name: "cs:QuestRewardPopup"
       ObjectReference {
-        SelfId: 14659159940601750775
+        SelfId: 13590843895640666494
       }
     }
     Overrides {
       Name: "cs:RPGQuestGiver"
       ObjectReference {
-        SelfId: 1246759313591253536
+        SelfId: 4295698184613531074
       }
     }
     Overrides {
       Name: "cs:Reward"
       ObjectReference {
-        SelfId: 3836620512295477458
+        SelfId: 9892079199595536400
       }
     }
     Overrides {
@@ -3673,37 +4854,37 @@ Objects {
     Overrides {
       Name: "cs:UIContainer"
       ObjectReference {
-        SelfId: 5474673910039052735
+        SelfId: 12282324719778489900
       }
     }
     Overrides {
       Name: "cs:ClientInfo"
       ObjectReference {
-        SelfId: 6963324134319778146
+        SelfId: 6279089479203963757
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 18169316286183139127
+        SelfId: 17613578441172937712
       }
     }
     Overrides {
       Name: "cs:RewardIcon"
       ObjectReference {
-        SelfId: 11331064796289145044
+        SelfId: 18039620098152406397
       }
     }
     Overrides {
       Name: "cs:RewardText"
       ObjectReference {
-        SelfId: 17061423611609851072
+        SelfId: 207766469165859773
       }
     }
     Overrides {
       Name: "cs:QuestCompleteText"
       ObjectReference {
-        SelfId: 3335937743705838405
+        SelfId: 12137053763255153687
       }
     }
   }
@@ -3719,14 +4900,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 8339700041210210637
-    SubobjectId: 13275283008463039982
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 1343971870260410156
+    SubobjectId: 14911194359691959288
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 6147574885291381298
+  Id: 5209217047340766460
   Name: "Skeleton Mob"
   Transform {
     Location {
@@ -3741,7 +4922,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6963324134319778146
+  ParentId: 6279089479203963757
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3797,14 +4978,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 183549967065443249
-    SubobjectId: 14486900461714190098
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5209217047340766460
+    SubobjectId: 10665456586411325480
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 4320239543371230004
+  Id: 8002515401578925704
   Name: "NPCHealthBarDataProviderClient"
   Transform {
     Location {
@@ -3818,12 +4999,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6963324134319778146
+  ParentId: 6279089479203963757
   UnregisteredParameters {
     Overrides {
       Name: "cs:Root"
       ObjectReference {
-        SelfId: 1246759313591253536
+        SelfId: 4295698184613531074
       }
     }
   }
@@ -3839,14 +5020,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 8008752054140420473
-    SubobjectId: 11863355531658429914
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 8002515401578925704
+    SubobjectId: 12918344995462062684
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 2582055167140623298
+  Id: 13873582662638245629
   Name: "ForwardNode"
   Transform {
     Location {
@@ -3861,7 +5042,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5989077741298885556
+  ParentId: 5775378679510309947
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -3872,14 +5053,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 16926956517513277278
-    SubobjectId: 2409276039014280189
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 13873582662638245629
+    SubobjectId: 2072032835724671529
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 5064000719229012819
+  Id: 9143041184237827790
   Name: "NPC Quest Giver"
   Transform {
     Location {
@@ -3894,8 +5075,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6250760380711323358
-  ChildIds: 4953643381814398928
+  ParentId: 16119488438927916119
+  ChildIds: 12746865195443391178
   UnregisteredParameters {
     Overrides {
       Name: "cs:HasQuest"
@@ -3984,14 +5165,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 5064000719229012819
-    SubobjectId: 10214488710748377072
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 9143041184237827790
+    SubobjectId: 11721480648937003546
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 4953643381814398928
+  Id: 12746865195443391178
   Name: "ClientContext"
   Transform {
     Location {
@@ -4004,9 +5185,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5064000719229012819
-  ChildIds: 16926956517513277278
-  ChildIds: 4772034850790238380
+  ParentId: 9143041184237827790
+  ChildIds: 11741650207939775891
+  ChildIds: 2032287611446345042
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -4016,14 +5197,14 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 4953643381814398928
-    SubobjectId: 10320340386602666867
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 12746865195443391178
+    SubobjectId: 7830771651669386782
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 4772034850790238380
+  Id: 2032287611446345042
   Name: "ClientInfo"
   Transform {
     Location {
@@ -4036,10 +5217,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4953643381814398928
-  ChildIds: 8008752054140420473
-  ChildIds: 183549967065443249
-  ChildIds: 14730800726603021704
+  ParentId: 12746865195443391178
+  ChildIds: 6246697651549337550
+  ChildIds: 17810958067465801928
+  ChildIds: 6007735730615107377
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4050,14 +5231,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 4772034850790238380
-    SubobjectId: 9925505757781961743
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 2032287611446345042
+    SubobjectId: 13870429204114166150
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 14730800726603021704
+  Id: 6007735730615107377
   Name: "Trigger"
   Transform {
     Location {
@@ -4071,8 +5252,8 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 4772034850790238380
-  ChildIds: 8339700041210210637
+  ParentId: 2032287611446345042
+  ChildIds: 4640128213756271927
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -4090,14 +5271,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14730800726603021704
-    SubobjectId: 570136057613383979
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 6007735730615107377
+    SubobjectId: 10310508519517737957
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 8339700041210210637
+  Id: 4640128213756271927
   Name: "QuestDialogNPC"
   Transform {
     Location {
@@ -4114,66 +5295,66 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14730800726603021704
+  ParentId: 6007735730615107377
   UnregisteredParameters {
     Overrides {
       Name: "cs:AcceptButton"
       ObjectReference {
-        SelfId: 18084097885073903491
+        SelfId: 18093021433305569461
       }
     }
     Overrides {
       Name: "cs:CompleteButton"
       ObjectReference {
-        SelfId: 8835749009627618159
+        SelfId: 5673100135419116999
       }
     }
     Overrides {
       Name: "cs:DeclineButton"
       ObjectReference {
-        SelfId: 8034421636731720971
+        SelfId: 3930665481620676677
       }
     }
     Overrides {
       Name: "cs:QuestDescText"
       ObjectReference {
-        SelfId: 5164526811179431515
+        SelfId: 12635505621918469050
       }
     }
     Overrides {
       Name: "cs:QuestGiverPanel"
       ObjectReference {
-        SelfId: 5777924015546422223
+        SelfId: 13822748214303197579
       }
     }
     Overrides {
       Name: "cs:QuestGiverPanel_0"
       ObjectReference {
-        SelfId: 4978985563805060939
+        SelfId: 2328085980039266435
       }
     }
     Overrides {
       Name: "cs:QuestName"
       ObjectReference {
-        SelfId: 3110273844780317185
+        SelfId: 14061414522107428574
       }
     }
     Overrides {
       Name: "cs:QuestRewardPopup"
       ObjectReference {
-        SelfId: 14659159940601750775
+        SelfId: 13590843895640666494
       }
     }
     Overrides {
       Name: "cs:RPGQuestGiver"
       ObjectReference {
-        SelfId: 5064000719229012819
+        SelfId: 9143041184237827790
       }
     }
     Overrides {
       Name: "cs:Reward"
       ObjectReference {
-        SelfId: 3836620512295477458
+        SelfId: 9892079199595536400
       }
     }
     Overrides {
@@ -4185,37 +5366,37 @@ Objects {
     Overrides {
       Name: "cs:UIContainer"
       ObjectReference {
-        SelfId: 5474673910039052735
+        SelfId: 12282324719778489900
       }
     }
     Overrides {
       Name: "cs:ClientInfo"
       ObjectReference {
-        SelfId: 4772034850790238380
+        SelfId: 2032287611446345042
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 14730800726603021704
+        SelfId: 6007735730615107377
       }
     }
     Overrides {
       Name: "cs:RewardIcon"
       ObjectReference {
-        SelfId: 11331064796289145044
+        SelfId: 18039620098152406397
       }
     }
     Overrides {
       Name: "cs:RewardText"
       ObjectReference {
-        SelfId: 17061423611609851072
+        SelfId: 207766469165859773
       }
     }
     Overrides {
       Name: "cs:QuestCompleteText"
       ObjectReference {
-        SelfId: 3335937743705838405
+        SelfId: 12137053763255153687
       }
     }
   }
@@ -4231,14 +5412,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 8339700041210210637
-    SubobjectId: 13275283008463039982
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 4640128213756271927
+    SubobjectId: 11253518043058778595
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 183549967065443249
+  Id: 17810958067465801928
   Name: "Skeleton Mob"
   Transform {
     Location {
@@ -4253,7 +5434,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4772034850790238380
+  ParentId: 2032287611446345042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4309,14 +5490,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 183549967065443249
-    SubobjectId: 14486900461714190098
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 17810958067465801928
+    SubobjectId: 3126818590442863644
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 8008752054140420473
+  Id: 6246697651549337550
   Name: "NPCHealthBarDataProviderClient"
   Transform {
     Location {
@@ -4330,12 +5511,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4772034850790238380
+  ParentId: 2032287611446345042
   UnregisteredParameters {
     Overrides {
       Name: "cs:Root"
       ObjectReference {
-        SelfId: 5064000719229012819
+        SelfId: 9143041184237827790
       }
     }
   }
@@ -4351,14 +5532,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 8008752054140420473
-    SubobjectId: 11863355531658429914
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 6246697651549337550
+    SubobjectId: 10014089556751489818
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 16926956517513277278
+  Id: 11741650207939775891
   Name: "ForwardNode"
   Transform {
     Location {
@@ -4373,7 +5554,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4953643381814398928
+  ParentId: 12746865195443391178
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -4384,14 +5565,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 16926956517513277278
-    SubobjectId: 2409276039014280189
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 11741650207939775891
+    SubobjectId: 9131949468384895303
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 369906238347109753
+  Id: 5144154020921029740
   Name: "QuestList"
   Transform {
     Location {
@@ -4404,9 +5585,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14171780112296459774
-  ChildIds: 3201213746077344918
-  ChildIds: 12455554201278469620
+  ParentId: 1891687057998311815
+  ChildIds: 16050997505773228910
+  ChildIds: 9261609240059522464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4417,14 +5598,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 369906238347109753
-    SubobjectId: 14890586247531831770
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 5144154020921029740
+    SubobjectId: 11180819240337234104
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 12455554201278469620
+  Id: 9261609240059522464
   Name: "QuestExample"
   Transform {
     Location {
@@ -4437,8 +5618,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 369906238347109753
-  ChildIds: 4555918134732372813
+  ParentId: 5144154020921029740
+  ChildIds: 17294843865154194490
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
@@ -4531,14 +5712,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 3201213746077344918
-    SubobjectId: 16711495368425824309
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 9261609240059522464
+    SubobjectId: 6687374337369653620
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 4555918134732372813
+  Id: 17294843865154194490
   Name: "Rewards"
   Transform {
     Location {
@@ -4554,7 +5735,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12455554201278469620
+  ParentId: 9261609240059522464
   UnregisteredParameters {
     Overrides {
       Name: "cs:Equipment"
@@ -4589,14 +5770,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 6969410081424592393
-    SubobjectId: 12339729958770576042
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 17294843865154194490
+    SubobjectId: 3191411470992564462
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 3201213746077344918
+  Id: 16050997505773228910
   Name: "QuestExample"
   Transform {
     Location {
@@ -4609,8 +5790,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 369906238347109753
-  ChildIds: 6969410081424592393
+  ParentId: 5144154020921029740
+  ChildIds: 1124607593111783501
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
@@ -4642,7 +5823,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ObjectiveRequired"
-      Int: 1
+      Int: 3
     }
     Overrides {
       Name: "cs:IsRepeatable"
@@ -4703,14 +5884,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 3201213746077344918
-    SubobjectId: 16711495368425824309
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 16050997505773228910
+    SubobjectId: 182697323800379322
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 6969410081424592393
+  Id: 1124607593111783501
   Name: "Rewards"
   Transform {
     Location {
@@ -4726,7 +5907,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3201213746077344918
+  ParentId: 16050997505773228910
   UnregisteredParameters {
     Overrides {
       Name: "cs:Equipment"
@@ -4761,14 +5942,14 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 6969410081424592393
-    SubobjectId: 12339729958770576042
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 1124607593111783501
+    SubobjectId: 15263512407266354329
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
-  Id: 1439820558867442250
+  Id: 14443503517354804808
   Name: "QuestSystem-ReadMe"
   Transform {
     Location {
@@ -4781,7 +5962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14171780112296459774
+  ParentId: 1891687057998311815
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4794,10 +5975,10 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 1439820558867442250
-    SubobjectId: 15599505544070295273
-    InstanceId: 17695422093665490575
-    TemplateId: 18012244764686992458
+    SelfId: 14443503517354804808
+    SubobjectId: 1456961635524258460
+    InstanceId: 17348548376069245711
+    TemplateId: 5644742528842290288
   }
 }
 Objects {
