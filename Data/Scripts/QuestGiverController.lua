@@ -83,7 +83,7 @@ function OnAcceptQuest(button)
 		if Disappear then
 		--	NPC.isEnabled = false
 		end
-		local NPCLocation = ROOT:GetWorldPosition()
+		--local NPCLocation = ROOT:GetWorldPosition()
 	end
 end
 
@@ -106,6 +106,7 @@ function OnInteracted(whichTrigger, other)
 		end
 		if not RequiresQuestComplete or (RequiresQuestComplete and requiredQuestStatus > 100000) then
 			RewardIcon.visibility = Visibility.FORCE_ON
+			DeclineButton.text = "Decline"
 			if questStatus >= 2 then
 				ROOT.clientUserData.QuestID = NPCQuest
 			end
