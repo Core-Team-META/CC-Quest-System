@@ -19,10 +19,10 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 4698939578780040447
   ChildIds: 10163127600253082303
   ChildIds: 298909095617905417
   ChildIds: 14171780112296459774
+  ChildIds: 8282520083590187659
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,6 +32,40 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 8282520083590187659
+  Name: "Combat Dependencies-BETA"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15393819321581214901
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Combat Dependencies-BETA"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 185.207169
+            Y: 440.26825
+            Z: 2.28881836e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5724681481761838295
+    }
   }
 }
 Objects {
@@ -451,7 +485,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 150
@@ -541,7 +575,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 79
+    Width: 95
     Height: 60
     UIX: 43.7969246
     UIY: 395
@@ -5486,40 +5520,6 @@ Objects {
     SubobjectId: 15047831320703083673
     InstanceId: 6372760474293535480
     TemplateId: 12108831819200444015
-  }
-}
-Objects {
-  Id: 4698939578780040447
-  Name: "Combat Dependencies"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8014650375856875642
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Combat Dependencies"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 475.701538
-            Y: 430.911957
-            Z: 2.28881836e-05
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12880670688737124697
-    }
   }
 }
 Objects {
