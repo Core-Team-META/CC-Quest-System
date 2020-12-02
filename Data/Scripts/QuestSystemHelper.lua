@@ -2,8 +2,7 @@
 -- Quest System Combat Helper
 -- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 -- https://GamerTitan.com
--- Date: 11/14/2020
--- Version 0.1.0
+--v0.1.1-b - 2020/12/01
 ------------------------------------------------------------------------------------------------------------------------
 -- Require
 ------------------------------------------------------------------------------------------------------------------------
@@ -30,7 +29,15 @@ function OnDamageTaken(object, dmg, source)
     if IsAPlayer(source) and object.FindTemplateRoot then
         local templateRoot = object:FindTemplateRoot()
         if templateRoot then
-            --#TODO Add Damage Quests
+            local isDead = false
+            Task.Wait(0.1)
+            local currentHealth = templateRoot:GetCustomProperty("CurrentHealth")
+            if currentHealth and currentHealth <= 0 then
+                isDead = true
+            end
+            if isDead then
+                OnDiedEvent(object, dmg, source)
+            end
         end
     end
 end
@@ -45,9 +52,9 @@ function OnDiedEvent(object, dmg, source)
     end
 end
 
-
 ------------------------------------------------------------------------------------------------------------------------
 -- Listeners
 ------------------------------------------------------------------------------------------------------------------------
+Events.Connect("GoingToTakeDamage", OnDamageTaken)
 --Events.Connect("CombatWrapAPI.OnDamageTaken", OnDamageTaken) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()
-Events.Connect("CombatWrapAPI.ObjectHasDied", OnDiedEvent) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()
+--Events.Connect("CombatWrapAPI.ObjectHasDied", OnDiedEvent) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()

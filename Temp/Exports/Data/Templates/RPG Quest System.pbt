@@ -1,12 +1,12 @@
 ﻿Assets {
-  Id: 5644742528842290288
+  Id: 11517839286854367312
   Name: "RPG Quest System"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 14269959248513539411
+      RootId: 12318426896221531595
       Objects {
-        Id: 14269959248513539411
+        Id: 12318426896221531595
         Name: "RPG Quest System"
         Transform {
           Scale {
@@ -16,12 +16,12 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 1456961635524258460
-        ChildIds: 11180819240337234104
-        ChildIds: 286654069124239491
-        ChildIds: 5665830731041277837
-        ChildIds: 11105624689488490105
-        ChildIds: 1264363606199287907
+        ChildIds: 11170290543823519363
+        ChildIds: 4535461681641974442
+        ChildIds: 7345414963386367155
+        ChildIds: 4671927880942316609
+        ChildIds: 7144931204373652749
+        ChildIds: 16758726349082100477
         UnregisteredParameters {
           Overrides {
             Name: "cs:UseHeirarchyData"
@@ -43,7 +43,7 @@
         }
       }
       Objects {
-        Id: 1456961635524258460
+        Id: 11170290543823519363
         Name: "QuestSystem-ReadMe"
         Transform {
           Location {
@@ -56,7 +56,7 @@
             Z: 1
           }
         }
-        ParentId: 14269959248513539411
+        ParentId: 12318426896221531595
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -70,7 +70,7 @@
         }
       }
       Objects {
-        Id: 11180819240337234104
+        Id: 4535461681641974442
         Name: "QuestList"
         Transform {
           Location {
@@ -83,9 +83,9 @@
             Z: 1
           }
         }
-        ParentId: 14269959248513539411
-        ChildIds: 182697323800379322
-        ChildIds: 6687374337369653620
+        ParentId: 12318426896221531595
+        ChildIds: 763969916295517295
+        ChildIds: 13510101968996804693
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -97,7 +97,7 @@
         }
       }
       Objects {
-        Id: 182697323800379322
+        Id: 763969916295517295
         Name: "QuestExample"
         Transform {
           Location {
@@ -110,8 +110,8 @@
             Z: 1
           }
         }
-        ParentId: 11180819240337234104
-        ChildIds: 15263512407266354329
+        ParentId: 4535461681641974442
+        ChildIds: 6798161445984314864
         UnregisteredParameters {
           Overrides {
             Name: "cs:Enabled"
@@ -205,7 +205,7 @@
         }
       }
       Objects {
-        Id: 15263512407266354329
+        Id: 6798161445984314864
         Name: "Rewards"
         Transform {
           Location {
@@ -221,7 +221,7 @@
             Z: 1
           }
         }
-        ParentId: 182697323800379322
+        ParentId: 763969916295517295
         UnregisteredParameters {
           Overrides {
             Name: "cs:Equipment"
@@ -257,7 +257,7 @@
         }
       }
       Objects {
-        Id: 6687374337369653620
+        Id: 13510101968996804693
         Name: "QuestExample"
         Transform {
           Location {
@@ -270,8 +270,8 @@
             Z: 1
           }
         }
-        ParentId: 11180819240337234104
-        ChildIds: 3191411470992564462
+        ParentId: 4535461681641974442
+        ChildIds: 9294087064035286579
         UnregisteredParameters {
           Overrides {
             Name: "cs:Enabled"
@@ -365,7 +365,7 @@
         }
       }
       Objects {
-        Id: 3191411470992564462
+        Id: 9294087064035286579
         Name: "Rewards"
         Transform {
           Location {
@@ -381,7 +381,7 @@
             Z: 1
           }
         }
-        ParentId: 6687374337369653620
+        ParentId: 13510101968996804693
         UnregisteredParameters {
           Overrides {
             Name: "cs:Equipment"
@@ -417,7 +417,7 @@
         }
       }
       Objects {
-        Id: 286654069124239491
+        Id: 7345414963386367155
         Name: "QuestGivers"
         Transform {
           Location {
@@ -433,9 +433,9 @@
             Z: 1
           }
         }
-        ParentId: 14269959248513539411
-        ChildIds: 11721480648937003546
-        ChildIds: 16705233871572853014
+        ParentId: 12318426896221531595
+        ChildIds: 8566235484781660541
+        ChildIds: 2973747588862408572
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -447,7 +447,7 @@
         }
       }
       Objects {
-        Id: 11721480648937003546
+        Id: 8566235484781660541
         Name: "NPC Quest Giver"
         Transform {
           Location {
@@ -462,8 +462,8 @@
             Z: 1
           }
         }
-        ParentId: 286654069124239491
-        ChildIds: 7830771651669386782
+        ParentId: 7345414963386367155
+        ChildIds: 12105112541630272333
         UnregisteredParameters {
           Overrides {
             Name: "cs:HasQuest"
@@ -553,7 +553,7 @@
         }
       }
       Objects {
-        Id: 7830771651669386782
+        Id: 12105112541630272333
         Name: "ClientContext"
         Transform {
           Location {
@@ -566,9 +566,9 @@
             Z: 1
           }
         }
-        ParentId: 11721480648937003546
-        ChildIds: 9131949468384895303
-        ChildIds: 13870429204114166150
+        ParentId: 8566235484781660541
+        ChildIds: 2432235145519879804
+        ChildIds: 1825214868624608038
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -579,7 +579,7 @@
         }
       }
       Objects {
-        Id: 9131949468384895303
+        Id: 2432235145519879804
         Name: "ForwardNode"
         Transform {
           Location {
@@ -594,7 +594,7 @@
             Z: 1
           }
         }
-        ParentId: 7830771651669386782
+        ParentId: 12105112541630272333
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -606,7 +606,7 @@
         }
       }
       Objects {
-        Id: 13870429204114166150
+        Id: 1825214868624608038
         Name: "ClientInfo"
         Transform {
           Location {
@@ -619,10 +619,10 @@
             Z: 1
           }
         }
-        ParentId: 7830771651669386782
-        ChildIds: 10014089556751489818
-        ChildIds: 3126818590442863644
-        ChildIds: 10310508519517737957
+        ParentId: 12105112541630272333
+        ChildIds: 126759646003882929
+        ChildIds: 8963217312200967313
+        ChildIds: 7103071142019418374
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -634,7 +634,7 @@
         }
       }
       Objects {
-        Id: 10014089556751489818
+        Id: 126759646003882929
         Name: "NPCHealthBarDataProviderClient"
         Transform {
           Location {
@@ -648,12 +648,12 @@
             Z: 1
           }
         }
-        ParentId: 13870429204114166150
+        ParentId: 1825214868624608038
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 11721480648937003546
+              SubObjectId: 8566235484781660541
             }
           }
         }
@@ -670,7 +670,7 @@
         }
       }
       Objects {
-        Id: 3126818590442863644
+        Id: 8963217312200967313
         Name: "Skeleton Mob"
         Transform {
           Location {
@@ -685,7 +685,7 @@
             Z: 1
           }
         }
-        ParentId: 13870429204114166150
+        ParentId: 1825214868624608038
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -742,7 +742,7 @@
         }
       }
       Objects {
-        Id: 10310508519517737957
+        Id: 7103071142019418374
         Name: "Trigger"
         Transform {
           Location {
@@ -756,8 +756,8 @@
             Z: 2.1
           }
         }
-        ParentId: 13870429204114166150
-        ChildIds: 11253518043058778595
+        ParentId: 1825214868624608038
+        ChildIds: 8809388718295459840
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -776,7 +776,7 @@
         }
       }
       Objects {
-        Id: 11253518043058778595
+        Id: 8809388718295459840
         Name: "QuestDialogNPC"
         Transform {
           Location {
@@ -793,66 +793,66 @@
             Z: 1
           }
         }
-        ParentId: 10310508519517737957
+        ParentId: 7103071142019418374
         UnregisteredParameters {
           Overrides {
             Name: "cs:AcceptButton"
             ObjectReference {
-              SubObjectId: 2836942507461801057
+              SubObjectId: 6723772626508460086
             }
           }
           Overrides {
             Name: "cs:CompleteButton"
             ObjectReference {
-              SubObjectId: 10588927596842586387
+              SubObjectId: 2676125149685048404
             }
           }
           Overrides {
             Name: "cs:DeclineButton"
             ObjectReference {
-              SubObjectId: 16916941189832346769
+              SubObjectId: 9632661847256336595
             }
           }
           Overrides {
             Name: "cs:QuestDescText"
             ObjectReference {
-              SubObjectId: 8292215864948991854
+              SubObjectId: 1227343449083789906
             }
           }
           Overrides {
             Name: "cs:QuestGiverPanel"
             ObjectReference {
-              SubObjectId: 7178121307462526303
+              SubObjectId: 5645999799099117760
             }
           }
           Overrides {
             Name: "cs:QuestGiverPanel_0"
             ObjectReference {
-              SubObjectId: 18160359583335099479
+              SubObjectId: 14285383867767479774
             }
           }
           Overrides {
             Name: "cs:QuestName"
             ObjectReference {
-              SubObjectId: 2264647667948261898
+              SubObjectId: 3635411731743692213
             }
           }
           Overrides {
             Name: "cs:QuestRewardPopup"
             ObjectReference {
-              SubObjectId: 6977742184035442090
+              SubObjectId: 8059141171763428501
             }
           }
           Overrides {
             Name: "cs:RPGQuestGiver"
             ObjectReference {
-              SubObjectId: 11721480648937003546
+              SubObjectId: 8566235484781660541
             }
           }
           Overrides {
             Name: "cs:Reward"
             ObjectReference {
-              SubObjectId: 6128891740933737668
+              SubObjectId: 2682816054945368912
             }
           }
           Overrides {
@@ -864,37 +864,37 @@
           Overrides {
             Name: "cs:UIContainer"
             ObjectReference {
-              SubObjectId: 8519154964988627704
+              SubObjectId: 2147810143166916039
             }
           }
           Overrides {
             Name: "cs:ClientInfo"
             ObjectReference {
-              SubObjectId: 13870429204114166150
+              SubObjectId: 1825214868624608038
             }
           }
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 10310508519517737957
+              SubObjectId: 7103071142019418374
             }
           }
           Overrides {
             Name: "cs:RewardIcon"
             ObjectReference {
-              SubObjectId: 2742711866728739241
+              SubObjectId: 470247752626206236
             }
           }
           Overrides {
             Name: "cs:RewardText"
             ObjectReference {
-              SubObjectId: 16045104530393411433
+              SubObjectId: 108459087332849439
             }
           }
           Overrides {
             Name: "cs:QuestCompleteText"
             ObjectReference {
-              SubObjectId: 8369642043741722819
+              SubObjectId: 12019402362649754817
             }
           }
         }
@@ -911,7 +911,7 @@
         }
       }
       Objects {
-        Id: 16705233871572853014
+        Id: 2973747588862408572
         Name: "NPC Quest Giver"
         Transform {
           Location {
@@ -927,8 +927,8 @@
             Z: 1
           }
         }
-        ParentId: 286654069124239491
-        ChildIds: 10119534764652359919
+        ParentId: 7345414963386367155
+        ChildIds: 8929690432161790378
         UnregisteredParameters {
           Overrides {
             Name: "cs:HasQuest"
@@ -1018,7 +1018,7 @@
         }
       }
       Objects {
-        Id: 10119534764652359919
+        Id: 8929690432161790378
         Name: "ClientContext"
         Transform {
           Location {
@@ -1031,9 +1031,9 @@
             Z: 1
           }
         }
-        ParentId: 16705233871572853014
-        ChildIds: 2072032835724671529
-        ChildIds: 10045918416199102393
+        ParentId: 2973747588862408572
+        ChildIds: 10893167396382135990
+        ChildIds: 2006640467491386519
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -1044,7 +1044,7 @@
         }
       }
       Objects {
-        Id: 2072032835724671529
+        Id: 10893167396382135990
         Name: "ForwardNode"
         Transform {
           Location {
@@ -1059,7 +1059,7 @@
             Z: 1
           }
         }
-        ParentId: 10119534764652359919
+        ParentId: 8929690432161790378
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -1071,7 +1071,7 @@
         }
       }
       Objects {
-        Id: 10045918416199102393
+        Id: 2006640467491386519
         Name: "ClientInfo"
         Transform {
           Location {
@@ -1084,10 +1084,10 @@
             Z: 1
           }
         }
-        ParentId: 10119534764652359919
-        ChildIds: 12918344995462062684
-        ChildIds: 10665456586411325480
-        ChildIds: 2898500987034863396
+        ParentId: 8929690432161790378
+        ChildIds: 468738337266700074
+        ChildIds: 10062861176248828191
+        ChildIds: 7618715088370158773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1099,7 +1099,7 @@
         }
       }
       Objects {
-        Id: 12918344995462062684
+        Id: 468738337266700074
         Name: "NPCHealthBarDataProviderClient"
         Transform {
           Location {
@@ -1113,12 +1113,12 @@
             Z: 1
           }
         }
-        ParentId: 10045918416199102393
+        ParentId: 2006640467491386519
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16705233871572853014
+              SubObjectId: 2973747588862408572
             }
           }
         }
@@ -1135,7 +1135,7 @@
         }
       }
       Objects {
-        Id: 10665456586411325480
+        Id: 10062861176248828191
         Name: "Skeleton Mob"
         Transform {
           Location {
@@ -1150,7 +1150,7 @@
             Z: 1
           }
         }
-        ParentId: 10045918416199102393
+        ParentId: 2006640467491386519
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1207,7 +1207,7 @@
         }
       }
       Objects {
-        Id: 2898500987034863396
+        Id: 7618715088370158773
         Name: "Trigger"
         Transform {
           Location {
@@ -1221,8 +1221,8 @@
             Z: 2.1
           }
         }
-        ParentId: 10045918416199102393
-        ChildIds: 14911194359691959288
+        ParentId: 2006640467491386519
+        ChildIds: 4280307714115355255
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -1241,7 +1241,7 @@
         }
       }
       Objects {
-        Id: 14911194359691959288
+        Id: 4280307714115355255
         Name: "QuestDialogNPC"
         Transform {
           Location {
@@ -1258,66 +1258,66 @@
             Z: 1
           }
         }
-        ParentId: 2898500987034863396
+        ParentId: 7618715088370158773
         UnregisteredParameters {
           Overrides {
             Name: "cs:AcceptButton"
             ObjectReference {
-              SubObjectId: 2836942507461801057
+              SubObjectId: 6723772626508460086
             }
           }
           Overrides {
             Name: "cs:CompleteButton"
             ObjectReference {
-              SubObjectId: 10588927596842586387
+              SubObjectId: 2676125149685048404
             }
           }
           Overrides {
             Name: "cs:DeclineButton"
             ObjectReference {
-              SubObjectId: 16916941189832346769
+              SubObjectId: 9632661847256336595
             }
           }
           Overrides {
             Name: "cs:QuestDescText"
             ObjectReference {
-              SubObjectId: 8292215864948991854
+              SubObjectId: 1227343449083789906
             }
           }
           Overrides {
             Name: "cs:QuestGiverPanel"
             ObjectReference {
-              SubObjectId: 7178121307462526303
+              SubObjectId: 5645999799099117760
             }
           }
           Overrides {
             Name: "cs:QuestGiverPanel_0"
             ObjectReference {
-              SubObjectId: 18160359583335099479
+              SubObjectId: 14285383867767479774
             }
           }
           Overrides {
             Name: "cs:QuestName"
             ObjectReference {
-              SubObjectId: 2264647667948261898
+              SubObjectId: 3635411731743692213
             }
           }
           Overrides {
             Name: "cs:QuestRewardPopup"
             ObjectReference {
-              SubObjectId: 6977742184035442090
+              SubObjectId: 8059141171763428501
             }
           }
           Overrides {
             Name: "cs:RPGQuestGiver"
             ObjectReference {
-              SubObjectId: 16705233871572853014
+              SubObjectId: 2973747588862408572
             }
           }
           Overrides {
             Name: "cs:Reward"
             ObjectReference {
-              SubObjectId: 6128891740933737668
+              SubObjectId: 2682816054945368912
             }
           }
           Overrides {
@@ -1329,37 +1329,37 @@
           Overrides {
             Name: "cs:UIContainer"
             ObjectReference {
-              SubObjectId: 8519154964988627704
+              SubObjectId: 2147810143166916039
             }
           }
           Overrides {
             Name: "cs:ClientInfo"
             ObjectReference {
-              SubObjectId: 10045918416199102393
+              SubObjectId: 2006640467491386519
             }
           }
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 2898500987034863396
+              SubObjectId: 7618715088370158773
             }
           }
           Overrides {
             Name: "cs:RewardIcon"
             ObjectReference {
-              SubObjectId: 2742711866728739241
+              SubObjectId: 470247752626206236
             }
           }
           Overrides {
             Name: "cs:RewardText"
             ObjectReference {
-              SubObjectId: 16045104530393411433
+              SubObjectId: 108459087332849439
             }
           }
           Overrides {
             Name: "cs:QuestCompleteText"
             ObjectReference {
-              SubObjectId: 8369642043741722819
+              SubObjectId: 12019402362649754817
             }
           }
         }
@@ -1376,7 +1376,7 @@
         }
       }
       Objects {
-        Id: 5665830731041277837
+        Id: 4671927880942316609
         Name: "QuestObjectives"
         Transform {
           Location {
@@ -1393,10 +1393,10 @@
             Z: 1
           }
         }
-        ParentId: 14269959248513539411
-        ChildIds: 15677118873681417206
-        ChildIds: 7551744349050986510
-        ChildIds: 10002844580263706296
+        ParentId: 12318426896221531595
+        ChildIds: 12648918901628766989
+        ChildIds: 13482182575839627113
+        ChildIds: 11462618677082857246
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1408,7 +1408,7 @@
         }
       }
       Objects {
-        Id: 15677118873681417206
+        Id: 12648918901628766989
         Name: "LostSword"
         Transform {
           Location {
@@ -1424,8 +1424,8 @@
             Z: 1
           }
         }
-        ParentId: 5665830731041277837
-        ChildIds: 17584205021661017345
+        ParentId: 4671927880942316609
+        ChildIds: 2434514805375682717
         UnregisteredParameters {
           Overrides {
             Name: "cs:QuestID"
@@ -1455,7 +1455,7 @@
         }
       }
       Objects {
-        Id: 17584205021661017345
+        Id: 2434514805375682717
         Name: "ClientContext"
         Transform {
           Location {
@@ -1471,8 +1471,8 @@
             Z: 1.23202884
           }
         }
-        ParentId: 15677118873681417206
-        ChildIds: 16158914271690308304
+        ParentId: 12648918901628766989
+        ChildIds: 1373566786116049743
         UnregisteredParameters {
           Overrides {
             Name: "cs:Objective"
@@ -1489,7 +1489,7 @@
         }
       }
       Objects {
-        Id: 16158914271690308304
+        Id: 1373566786116049743
         Name: "Sword"
         Transform {
           Location {
@@ -1505,10 +1505,10 @@
             Z: 0.81166929
           }
         }
-        ParentId: 17584205021661017345
-        ChildIds: 18186674645067492894
-        ChildIds: 16263517362008327327
-        ChildIds: 15068705287079118422
+        ParentId: 2434514805375682717
+        ChildIds: 12344284978407862251
+        ChildIds: 10510686463704891059
+        ChildIds: 16268147375344197543
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1520,7 +1520,7 @@
         }
       }
       Objects {
-        Id: 18186674645067492894
+        Id: 12344284978407862251
         Name: "QuestTrigger"
         Transform {
           Location {
@@ -1539,24 +1539,24 @@
             Z: 1
           }
         }
-        ParentId: 16158914271690308304
+        ParentId: 1373566786116049743
         UnregisteredParameters {
           Overrides {
             Name: "cs:Sword"
             ObjectReference {
-              SubObjectId: 16158914271690308304
+              SubObjectId: 1373566786116049743
             }
           }
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 16263517362008327327
+              SubObjectId: 10510686463704891059
             }
           }
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 15677118873681417206
+              SubObjectId: 12648918901628766989
             }
           }
         }
@@ -1573,7 +1573,7 @@
         }
       }
       Objects {
-        Id: 16263517362008327327
+        Id: 10510686463704891059
         Name: "Trigger"
         Transform {
           Location {
@@ -1589,7 +1589,7 @@
             Z: 1
           }
         }
-        ParentId: 16158914271690308304
+        ParentId: 1373566786116049743
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -1611,7 +1611,7 @@
         }
       }
       Objects {
-        Id: 15068705287079118422
+        Id: 16268147375344197543
         Name: "Fantasy Weapon - Sword 02 (Prop)"
         Transform {
           Location {
@@ -1630,12 +1630,12 @@
             Z: 1
           }
         }
-        ParentId: 16158914271690308304
-        ChildIds: 3470835785456511570
-        ChildIds: 8720543999281476903
-        ChildIds: 14162057148809859640
-        ChildIds: 13292128860562468193
-        ChildIds: 15779719716011144429
+        ParentId: 1373566786116049743
+        ChildIds: 16077656165359831921
+        ChildIds: 8353682577520916654
+        ChildIds: 15766330343208400240
+        ChildIds: 9259311747183453272
+        ChildIds: 3654336844282677943
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1647,7 +1647,7 @@
         }
       }
       Objects {
-        Id: 3470835785456511570
+        Id: 16077656165359831921
         Name: "Fantasy Sword Grip 01"
         Transform {
           Location {
@@ -1661,7 +1661,7 @@
             Z: 1
           }
         }
-        ParentId: 15068705287079118422
+        ParentId: 16268147375344197543
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1683,7 +1683,7 @@
         }
       }
       Objects {
-        Id: 8720543999281476903
+        Id: 8353682577520916654
         Name: "Fantasy Sword Guard 01"
         Transform {
           Location {
@@ -1697,7 +1697,7 @@
             Z: 1
           }
         }
-        ParentId: 15068705287079118422
+        ParentId: 16268147375344197543
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1719,7 +1719,7 @@
         }
       }
       Objects {
-        Id: 14162057148809859640
+        Id: 15766330343208400240
         Name: "Fantasy Sword Blade 03"
         Transform {
           Location {
@@ -1733,7 +1733,7 @@
             Z: 1
           }
         }
-        ParentId: 15068705287079118422
+        ParentId: 16268147375344197543
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1755,7 +1755,7 @@
         }
       }
       Objects {
-        Id: 13292128860562468193
+        Id: 9259311747183453272
         Name: "Fantasy Pommel 04"
         Transform {
           Location {
@@ -1770,7 +1770,7 @@
             Z: 1.39352274
           }
         }
-        ParentId: 15068705287079118422
+        ParentId: 16268147375344197543
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1792,7 +1792,7 @@
         }
       }
       Objects {
-        Id: 15779719716011144429
+        Id: 3654336844282677943
         Name: "Fantasy Pommel 03"
         Transform {
           Location {
@@ -1806,7 +1806,7 @@
             Z: 1
           }
         }
-        ParentId: 15068705287079118422
+        ParentId: 16268147375344197543
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1828,7 +1828,7 @@
         }
       }
       Objects {
-        Id: 7551744349050986510
+        Id: 13482182575839627113
         Name: "LostSword"
         Transform {
           Location {
@@ -1845,8 +1845,8 @@
             Z: 1
           }
         }
-        ParentId: 5665830731041277837
-        ChildIds: 2444683399136875698
+        ParentId: 4671927880942316609
+        ChildIds: 5672260851847179711
         UnregisteredParameters {
           Overrides {
             Name: "cs:QuestID"
@@ -1876,7 +1876,7 @@
         }
       }
       Objects {
-        Id: 2444683399136875698
+        Id: 5672260851847179711
         Name: "ClientContext"
         Transform {
           Location {
@@ -1892,8 +1892,8 @@
             Z: 1.23202884
           }
         }
-        ParentId: 7551744349050986510
-        ChildIds: 15919062942264742890
+        ParentId: 13482182575839627113
+        ChildIds: 7534926897236531014
         UnregisteredParameters {
           Overrides {
             Name: "cs:Objective"
@@ -1910,7 +1910,7 @@
         }
       }
       Objects {
-        Id: 15919062942264742890
+        Id: 7534926897236531014
         Name: "Sword"
         Transform {
           Location {
@@ -1926,10 +1926,10 @@
             Z: 0.81166929
           }
         }
-        ParentId: 2444683399136875698
-        ChildIds: 8970306871334860945
-        ChildIds: 5410992403139912689
-        ChildIds: 15120440064506207959
+        ParentId: 5672260851847179711
+        ChildIds: 2629591418309406394
+        ChildIds: 10062450209986031045
+        ChildIds: 15142389516868194512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1941,7 +1941,7 @@
         }
       }
       Objects {
-        Id: 8970306871334860945
+        Id: 2629591418309406394
         Name: "QuestTrigger"
         Transform {
           Location {
@@ -1960,24 +1960,24 @@
             Z: 1
           }
         }
-        ParentId: 15919062942264742890
+        ParentId: 7534926897236531014
         UnregisteredParameters {
           Overrides {
             Name: "cs:Sword"
             ObjectReference {
-              SubObjectId: 15919062942264742890
+              SubObjectId: 7534926897236531014
             }
           }
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 5410992403139912689
+              SubObjectId: 10062450209986031045
             }
           }
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 7551744349050986510
+              SubObjectId: 13482182575839627113
             }
           }
         }
@@ -1994,7 +1994,7 @@
         }
       }
       Objects {
-        Id: 5410992403139912689
+        Id: 10062450209986031045
         Name: "Trigger"
         Transform {
           Location {
@@ -2010,7 +2010,7 @@
             Z: 1
           }
         }
-        ParentId: 15919062942264742890
+        ParentId: 7534926897236531014
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -2032,7 +2032,7 @@
         }
       }
       Objects {
-        Id: 15120440064506207959
+        Id: 15142389516868194512
         Name: "Fantasy Weapon - Sword 02 (Prop)"
         Transform {
           Location {
@@ -2051,12 +2051,12 @@
             Z: 1
           }
         }
-        ParentId: 15919062942264742890
-        ChildIds: 11698434596925638638
-        ChildIds: 11436801349063759984
-        ChildIds: 3802581878596854480
-        ChildIds: 10426085974194041031
-        ChildIds: 5364566307461371600
+        ParentId: 7534926897236531014
+        ChildIds: 3922839608593459523
+        ChildIds: 6724506566393791164
+        ChildIds: 11692430823695112146
+        ChildIds: 17353601327443385464
+        ChildIds: 5382866510629244025
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2068,7 +2068,7 @@
         }
       }
       Objects {
-        Id: 11698434596925638638
+        Id: 3922839608593459523
         Name: "Fantasy Sword Grip 01"
         Transform {
           Location {
@@ -2082,7 +2082,7 @@
             Z: 1
           }
         }
-        ParentId: 15120440064506207959
+        ParentId: 15142389516868194512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2104,7 +2104,7 @@
         }
       }
       Objects {
-        Id: 11436801349063759984
+        Id: 6724506566393791164
         Name: "Fantasy Sword Guard 01"
         Transform {
           Location {
@@ -2118,7 +2118,7 @@
             Z: 1
           }
         }
-        ParentId: 15120440064506207959
+        ParentId: 15142389516868194512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2140,7 +2140,7 @@
         }
       }
       Objects {
-        Id: 3802581878596854480
+        Id: 11692430823695112146
         Name: "Fantasy Sword Blade 03"
         Transform {
           Location {
@@ -2154,7 +2154,7 @@
             Z: 1
           }
         }
-        ParentId: 15120440064506207959
+        ParentId: 15142389516868194512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2176,7 +2176,7 @@
         }
       }
       Objects {
-        Id: 10426085974194041031
+        Id: 17353601327443385464
         Name: "Fantasy Pommel 04"
         Transform {
           Location {
@@ -2191,7 +2191,7 @@
             Z: 1.39352274
           }
         }
-        ParentId: 15120440064506207959
+        ParentId: 15142389516868194512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2213,7 +2213,7 @@
         }
       }
       Objects {
-        Id: 5364566307461371600
+        Id: 5382866510629244025
         Name: "Fantasy Pommel 03"
         Transform {
           Location {
@@ -2227,7 +2227,7 @@
             Z: 1
           }
         }
-        ParentId: 15120440064506207959
+        ParentId: 15142389516868194512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2249,7 +2249,7 @@
         }
       }
       Objects {
-        Id: 10002844580263706296
+        Id: 11462618677082857246
         Name: "LostSword"
         Transform {
           Location {
@@ -2266,8 +2266,8 @@
             Z: 1
           }
         }
-        ParentId: 5665830731041277837
-        ChildIds: 5947059125829163810
+        ParentId: 4671927880942316609
+        ChildIds: 6358765666896219682
         UnregisteredParameters {
           Overrides {
             Name: "cs:QuestID"
@@ -2297,7 +2297,7 @@
         }
       }
       Objects {
-        Id: 5947059125829163810
+        Id: 6358765666896219682
         Name: "ClientContext"
         Transform {
           Location {
@@ -2313,8 +2313,8 @@
             Z: 1.23202884
           }
         }
-        ParentId: 10002844580263706296
-        ChildIds: 11238859767307448022
+        ParentId: 11462618677082857246
+        ChildIds: 15266017698286487093
         UnregisteredParameters {
           Overrides {
             Name: "cs:Objective"
@@ -2331,7 +2331,7 @@
         }
       }
       Objects {
-        Id: 11238859767307448022
+        Id: 15266017698286487093
         Name: "Sword"
         Transform {
           Location {
@@ -2347,10 +2347,10 @@
             Z: 0.81166929
           }
         }
-        ParentId: 5947059125829163810
-        ChildIds: 10374086316244407823
-        ChildIds: 7547884927411911087
-        ChildIds: 11085239448321034378
+        ParentId: 6358765666896219682
+        ChildIds: 6200213182672886005
+        ChildIds: 3861357676492886802
+        ChildIds: 8567300082846377773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2362,7 +2362,7 @@
         }
       }
       Objects {
-        Id: 10374086316244407823
+        Id: 6200213182672886005
         Name: "QuestTrigger"
         Transform {
           Location {
@@ -2381,24 +2381,24 @@
             Z: 1
           }
         }
-        ParentId: 11238859767307448022
+        ParentId: 15266017698286487093
         UnregisteredParameters {
           Overrides {
             Name: "cs:Sword"
             ObjectReference {
-              SubObjectId: 11238859767307448022
+              SubObjectId: 15266017698286487093
             }
           }
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 7547884927411911087
+              SubObjectId: 3861357676492886802
             }
           }
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 10002844580263706296
+              SubObjectId: 11462618677082857246
             }
           }
         }
@@ -2415,7 +2415,7 @@
         }
       }
       Objects {
-        Id: 7547884927411911087
+        Id: 3861357676492886802
         Name: "Trigger"
         Transform {
           Location {
@@ -2431,7 +2431,7 @@
             Z: 1
           }
         }
-        ParentId: 11238859767307448022
+        ParentId: 15266017698286487093
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -2453,7 +2453,7 @@
         }
       }
       Objects {
-        Id: 11085239448321034378
+        Id: 8567300082846377773
         Name: "Fantasy Weapon - Sword 02 (Prop)"
         Transform {
           Location {
@@ -2472,12 +2472,12 @@
             Z: 1
           }
         }
-        ParentId: 11238859767307448022
-        ChildIds: 3060234520035542931
-        ChildIds: 13126843633632657586
-        ChildIds: 16481466204030101521
-        ChildIds: 13605294109303428796
-        ChildIds: 7971361156996841342
+        ParentId: 15266017698286487093
+        ChildIds: 14411901939435888316
+        ChildIds: 4775847223348676721
+        ChildIds: 15075065042812067538
+        ChildIds: 8757443044498476511
+        ChildIds: 18348091415997654782
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2489,7 +2489,7 @@
         }
       }
       Objects {
-        Id: 3060234520035542931
+        Id: 14411901939435888316
         Name: "Fantasy Sword Grip 01"
         Transform {
           Location {
@@ -2503,7 +2503,7 @@
             Z: 1
           }
         }
-        ParentId: 11085239448321034378
+        ParentId: 8567300082846377773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2525,7 +2525,7 @@
         }
       }
       Objects {
-        Id: 13126843633632657586
+        Id: 4775847223348676721
         Name: "Fantasy Sword Guard 01"
         Transform {
           Location {
@@ -2539,7 +2539,7 @@
             Z: 1
           }
         }
-        ParentId: 11085239448321034378
+        ParentId: 8567300082846377773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2561,7 +2561,7 @@
         }
       }
       Objects {
-        Id: 16481466204030101521
+        Id: 15075065042812067538
         Name: "Fantasy Sword Blade 03"
         Transform {
           Location {
@@ -2575,7 +2575,7 @@
             Z: 1
           }
         }
-        ParentId: 11085239448321034378
+        ParentId: 8567300082846377773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2597,7 +2597,7 @@
         }
       }
       Objects {
-        Id: 13605294109303428796
+        Id: 8757443044498476511
         Name: "Fantasy Pommel 04"
         Transform {
           Location {
@@ -2612,7 +2612,7 @@
             Z: 1.39352274
           }
         }
-        ParentId: 11085239448321034378
+        ParentId: 8567300082846377773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2634,7 +2634,7 @@
         }
       }
       Objects {
-        Id: 7971361156996841342
+        Id: 18348091415997654782
         Name: "Fantasy Pommel 03"
         Transform {
           Location {
@@ -2648,7 +2648,7 @@
             Z: 1
           }
         }
-        ParentId: 11085239448321034378
+        ParentId: 8567300082846377773
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2670,7 +2670,7 @@
         }
       }
       Objects {
-        Id: 11105624689488490105
+        Id: 7144931204373652749
         Name: "QuestUI"
         Transform {
           Location {
@@ -2686,8 +2686,8 @@
             Z: 1
           }
         }
-        ParentId: 14269959248513539411
-        ChildIds: 16404823662861504649
+        ParentId: 12318426896221531595
+        ChildIds: 17486439652674531669
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2699,7 +2699,7 @@
         }
       }
       Objects {
-        Id: 16404823662861504649
+        Id: 17486439652674531669
         Name: "Quest Panels"
         Transform {
           Location {
@@ -2712,9 +2712,9 @@
             Z: 1
           }
         }
-        ParentId: 11105624689488490105
-        ChildIds: 12226519121745865251
-        ChildIds: 8519154964988627704
+        ParentId: 7144931204373652749
+        ChildIds: 11061512120667866983
+        ChildIds: 2147810143166916039
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2725,7 +2725,7 @@
         }
       }
       Objects {
-        Id: 12226519121745865251
+        Id: 11061512120667866983
         Name: "QuestJournal"
         Transform {
           Location {
@@ -2741,12 +2741,12 @@
             Z: 1
           }
         }
-        ParentId: 16404823662861504649
+        ParentId: 17486439652674531669
         UnregisteredParameters {
           Overrides {
             Name: "cs:ParentPanel"
             ObjectReference {
-              SubObjectId: 11351222971127648672
+              SubObjectId: 4259255720477990759
             }
           }
           Overrides {
@@ -2758,37 +2758,37 @@
           Overrides {
             Name: "cs:ListofQuestPanel"
             ObjectReference {
-              SubObjectId: 3469640376310126920
+              SubObjectId: 3508291733797209689
             }
           }
           Overrides {
             Name: "cs:QuestName"
             ObjectReference {
-              SubObjectId: 8774176625297179713
+              SubObjectId: 11806801504251159771
             }
           }
           Overrides {
             Name: "cs:QuestDescText"
             ObjectReference {
-              SubObjectId: 8020677941274107525
+              SubObjectId: 16484664058107589157
             }
           }
           Overrides {
             Name: "cs:QuestProgress"
             ObjectReference {
-              SubObjectId: 11160875858113374077
+              SubObjectId: 17115312948995982223
             }
           }
           Overrides {
             Name: "cs:ProgressText"
             ObjectReference {
-              SubObjectId: 8222885634337703512
+              SubObjectId: 1600400900653066837
             }
           }
           Overrides {
             Name: "cs:TrackQuestButton"
             ObjectReference {
-              SubObjectId: 15721434792289495455
+              SubObjectId: 12095160117875750825
             }
           }
         }
@@ -2805,7 +2805,7 @@
         }
       }
       Objects {
-        Id: 8519154964988627704
+        Id: 2147810143166916039
         Name: "QuestContainer"
         Transform {
           Location {
@@ -2818,11 +2818,11 @@
             Z: 1
           }
         }
-        ParentId: 16404823662861504649
-        ChildIds: 7178121307462526303
-        ChildIds: 18160359583335099479
-        ChildIds: 6977742184035442090
-        ChildIds: 11351222971127648672
+        ParentId: 17486439652674531669
+        ChildIds: 5645999799099117760
+        ChildIds: 14285383867767479774
+        ChildIds: 8059141171763428501
+        ChildIds: 4259255720477990759
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2852,7 +2852,7 @@
         }
       }
       Objects {
-        Id: 7178121307462526303
+        Id: 5645999799099117760
         Name: "QuestPanel"
         Transform {
           Location {
@@ -2866,17 +2866,17 @@
             Z: 1
           }
         }
-        ParentId: 8519154964988627704
-        ChildIds: 10466386696680832900
-        ChildIds: 11494914003052858789
-        ChildIds: 16045104530393411433
-        ChildIds: 2742711866728739241
-        ChildIds: 2836942507461801057
-        ChildIds: 16916941189832346769
-        ChildIds: 6925087736844184261
-        ChildIds: 2264647667948261898
-        ChildIds: 14660861803147314060
-        ChildIds: 3963633430952211909
+        ParentId: 2147810143166916039
+        ChildIds: 16433436383119725550
+        ChildIds: 16167569401386088759
+        ChildIds: 108459087332849439
+        ChildIds: 470247752626206236
+        ChildIds: 6723772626508460086
+        ChildIds: 9632661847256336595
+        ChildIds: 17152042768876901549
+        ChildIds: 3635411731743692213
+        ChildIds: 10703988631867879822
+        ChildIds: 8754292850982541565
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2910,7 +2910,7 @@
         }
       }
       Objects {
-        Id: 10466386696680832900
+        Id: 16433436383119725550
         Name: "QuestBackground"
         Transform {
           Location {
@@ -2923,7 +2923,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2962,7 +2962,7 @@
         }
       }
       Objects {
-        Id: 11494914003052858789
+        Id: 16167569401386088759
         Name: "QuestFrame"
         Transform {
           Location {
@@ -2975,7 +2975,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3020,7 +3020,7 @@
         }
       }
       Objects {
-        Id: 16045104530393411433
+        Id: 108459087332849439
         Name: "RewardText"
         Transform {
           Location {
@@ -3033,7 +3033,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3079,7 +3079,7 @@
         }
       }
       Objects {
-        Id: 2742711866728739241
+        Id: 470247752626206236
         Name: "RewardIcon"
         Transform {
           Location {
@@ -3092,7 +3092,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3137,7 +3137,7 @@
         }
       }
       Objects {
-        Id: 2836942507461801057
+        Id: 6723772626508460086
         Name: "Accept Button"
         Transform {
           Location {
@@ -3150,7 +3150,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3217,7 +3217,7 @@
         }
       }
       Objects {
-        Id: 16916941189832346769
+        Id: 9632661847256336595
         Name: "Decline Button"
         Transform {
           Location {
@@ -3230,7 +3230,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3297,7 +3297,7 @@
         }
       }
       Objects {
-        Id: 6925087736844184261
+        Id: 17152042768876901549
         Name: "UI Image"
         Transform {
           Location {
@@ -3311,7 +3311,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3353,7 +3353,7 @@
         }
       }
       Objects {
-        Id: 2264647667948261898
+        Id: 3635411731743692213
         Name: "QuestName"
         Transform {
           Location {
@@ -3366,7 +3366,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3412,7 +3412,7 @@
         }
       }
       Objects {
-        Id: 14660861803147314060
+        Id: 10703988631867879822
         Name: "UI Image"
         Transform {
           Location {
@@ -3426,7 +3426,7 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
+        ParentId: 5645999799099117760
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3468,7 +3468,7 @@
         }
       }
       Objects {
-        Id: 3963633430952211909
+        Id: 8754292850982541565
         Name: "UI Scroll Panel"
         Transform {
           Location {
@@ -3482,8 +3482,8 @@
             Z: 1
           }
         }
-        ParentId: 7178121307462526303
-        ChildIds: 8292215864948991854
+        ParentId: 5645999799099117760
+        ChildIds: 1227343449083789906
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3517,7 +3517,7 @@
         }
       }
       Objects {
-        Id: 8292215864948991854
+        Id: 1227343449083789906
         Name: "QuestDescText"
         Transform {
           Location {
@@ -3530,7 +3530,7 @@
             Z: 1
           }
         }
-        ParentId: 3963633430952211909
+        ParentId: 8754292850982541565
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3575,7 +3575,7 @@
         }
       }
       Objects {
-        Id: 18160359583335099479
+        Id: 14285383867767479774
         Name: "QuestCompletePanel"
         Transform {
           Location {
@@ -3591,14 +3591,14 @@
             Z: 1
           }
         }
-        ParentId: 8519154964988627704
-        ChildIds: 9729842416910421434
-        ChildIds: 10751994375050839700
-        ChildIds: 6410204565160633584
-        ChildIds: 8369642043741722819
-        ChildIds: 11592860720824011773
-        ChildIds: 6723178064968943488
-        ChildIds: 10588927596842586387
+        ParentId: 2147810143166916039
+        ChildIds: 13304834304011238265
+        ChildIds: 17645190450750328470
+        ChildIds: 13349217280144870347
+        ChildIds: 12019402362649754817
+        ChildIds: 10875392671245629506
+        ChildIds: 15240040131988313654
+        ChildIds: 2676125149685048404
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3632,7 +3632,7 @@
         }
       }
       Objects {
-        Id: 9729842416910421434
+        Id: 13304834304011238265
         Name: "QuestBackground"
         Transform {
           Location {
@@ -3645,7 +3645,7 @@
             Z: 1
           }
         }
-        ParentId: 18160359583335099479
+        ParentId: 14285383867767479774
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3684,7 +3684,7 @@
         }
       }
       Objects {
-        Id: 10751994375050839700
+        Id: 17645190450750328470
         Name: "QuestFrame"
         Transform {
           Location {
@@ -3697,7 +3697,7 @@
             Z: 1
           }
         }
-        ParentId: 18160359583335099479
+        ParentId: 14285383867767479774
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3740,7 +3740,7 @@
         }
       }
       Objects {
-        Id: 6410204565160633584
+        Id: 13349217280144870347
         Name: "QuestName"
         Transform {
           Location {
@@ -3753,7 +3753,7 @@
             Z: 1
           }
         }
-        ParentId: 18160359583335099479
+        ParentId: 14285383867767479774
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3798,7 +3798,7 @@
         }
       }
       Objects {
-        Id: 8369642043741722819
+        Id: 12019402362649754817
         Name: "QuestCompleteText"
         Transform {
           Location {
@@ -3811,7 +3811,7 @@
             Z: 1
           }
         }
-        ParentId: 18160359583335099479
+        ParentId: 14285383867767479774
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3857,7 +3857,7 @@
         }
       }
       Objects {
-        Id: 11592860720824011773
+        Id: 10875392671245629506
         Name: "Reward"
         Transform {
           Location {
@@ -3870,7 +3870,7 @@
             Z: 1
           }
         }
-        ParentId: 18160359583335099479
+        ParentId: 14285383867767479774
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3916,7 +3916,7 @@
         }
       }
       Objects {
-        Id: 6723178064968943488
+        Id: 15240040131988313654
         Name: "RewardIcon"
         Transform {
           Location {
@@ -3929,7 +3929,7 @@
             Z: 1
           }
         }
-        ParentId: 18160359583335099479
+        ParentId: 14285383867767479774
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3974,7 +3974,7 @@
         }
       }
       Objects {
-        Id: 10588927596842586387
+        Id: 2676125149685048404
         Name: "CompleteButton"
         Transform {
           Location {
@@ -3987,7 +3987,7 @@
             Z: 1
           }
         }
-        ParentId: 18160359583335099479
+        ParentId: 14285383867767479774
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4054,7 +4054,7 @@
         }
       }
       Objects {
-        Id: 6977742184035442090
+        Id: 8059141171763428501
         Name: "QuestRewardPopup"
         Transform {
           Location {
@@ -4070,12 +4070,12 @@
             Z: 1
           }
         }
-        ParentId: 8519154964988627704
-        ChildIds: 6226061238570936504
-        ChildIds: 7443551694408244509
-        ChildIds: 6683585642257085885
-        ChildIds: 17493479092836364266
-        ChildIds: 6128891740933737668
+        ParentId: 2147810143166916039
+        ChildIds: 16731553164730126659
+        ChildIds: 16229304377983037355
+        ChildIds: 14381929004427761870
+        ChildIds: 14294520376919353784
+        ChildIds: 2682816054945368912
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4109,7 +4109,7 @@
         }
       }
       Objects {
-        Id: 6226061238570936504
+        Id: 16731553164730126659
         Name: "QuestBackground"
         Transform {
           Location {
@@ -4122,7 +4122,7 @@
             Z: 1
           }
         }
-        ParentId: 6977742184035442090
+        ParentId: 8059141171763428501
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4162,7 +4162,7 @@
         }
       }
       Objects {
-        Id: 7443551694408244509
+        Id: 16229304377983037355
         Name: "QuestFrame"
         Transform {
           Location {
@@ -4175,7 +4175,7 @@
             Z: 1
           }
         }
-        ParentId: 6977742184035442090
+        ParentId: 8059141171763428501
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4218,7 +4218,7 @@
         }
       }
       Objects {
-        Id: 6683585642257085885
+        Id: 14381929004427761870
         Name: "RewardIcon"
         Transform {
           Location {
@@ -4231,7 +4231,7 @@
             Z: 1
           }
         }
-        ParentId: 6977742184035442090
+        ParentId: 8059141171763428501
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4275,7 +4275,7 @@
         }
       }
       Objects {
-        Id: 17493479092836364266
+        Id: 14294520376919353784
         Name: "Reward"
         Transform {
           Location {
@@ -4288,7 +4288,7 @@
             Z: 1
           }
         }
-        ParentId: 6977742184035442090
+        ParentId: 8059141171763428501
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4334,7 +4334,7 @@
         }
       }
       Objects {
-        Id: 6128891740933737668
+        Id: 2682816054945368912
         Name: "Reward"
         Transform {
           Location {
@@ -4347,12 +4347,12 @@
             Z: 1
           }
         }
-        ParentId: 6977742184035442090
+        ParentId: 8059141171763428501
         UnregisteredParameters {
           Overrides {
             Name: "cs:Reward"
             ObjectReference {
-              SubObjectId: 6128891740933737668
+              SubObjectId: 2682816054945368912
             }
           }
         }
@@ -4401,7 +4401,7 @@
         }
       }
       Objects {
-        Id: 11351222971127648672
+        Id: 4259255720477990759
         Name: "QuestJournal"
         Transform {
           Location {
@@ -4414,11 +4414,11 @@
             Z: 1
           }
         }
-        ParentId: 8519154964988627704
-        ChildIds: 9070618294893492068
-        ChildIds: 8266923012695863835
-        ChildIds: 3469640376310126920
-        ChildIds: 3019646922358221805
+        ParentId: 2147810143166916039
+        ChildIds: 13084798411301688273
+        ChildIds: 2564251306032925582
+        ChildIds: 3508291733797209689
+        ChildIds: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4451,7 +4451,7 @@
         }
       }
       Objects {
-        Id: 9070618294893492068
+        Id: 13084798411301688273
         Name: "ParentBackground"
         Transform {
           Location {
@@ -4464,7 +4464,7 @@
             Z: 1
           }
         }
-        ParentId: 11351222971127648672
+        ParentId: 4259255720477990759
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4503,7 +4503,7 @@
         }
       }
       Objects {
-        Id: 8266923012695863835
+        Id: 2564251306032925582
         Name: "ParentFrame"
         Transform {
           Location {
@@ -4516,7 +4516,7 @@
             Z: 1
           }
         }
-        ParentId: 11351222971127648672
+        ParentId: 4259255720477990759
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4559,7 +4559,7 @@
         }
       }
       Objects {
-        Id: 3469640376310126920
+        Id: 3508291733797209689
         Name: "ListofQuestPanel"
         Transform {
           Location {
@@ -4572,7 +4572,7 @@
             Z: 1
           }
         }
-        ParentId: 11351222971127648672
+        ParentId: 4259255720477990759
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4604,7 +4604,7 @@
         }
       }
       Objects {
-        Id: 3019646922358221805
+        Id: 5429938013365871854
         Name: "QuestInfoParentPanel"
         Transform {
           Location {
@@ -4617,15 +4617,15 @@
             Z: 1
           }
         }
-        ParentId: 11351222971127648672
-        ChildIds: 8774176625297179713
-        ChildIds: 4821692805081060865
-        ChildIds: 13339785126407319954
-        ChildIds: 3766201596844650635
-        ChildIds: 17771148627473307977
-        ChildIds: 11160875858113374077
-        ChildIds: 8222885634337703512
-        ChildIds: 15721434792289495455
+        ParentId: 4259255720477990759
+        ChildIds: 11806801504251159771
+        ChildIds: 8973370178748008491
+        ChildIds: 1328277717216520053
+        ChildIds: 8604357623426094576
+        ChildIds: 15688827148761581260
+        ChildIds: 17115312948995982223
+        ChildIds: 1600400900653066837
+        ChildIds: 12095160117875750825
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4657,7 +4657,7 @@
         }
       }
       Objects {
-        Id: 8774176625297179713
+        Id: 11806801504251159771
         Name: "QuestName"
         Transform {
           Location {
@@ -4670,7 +4670,7 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
+        ParentId: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4715,7 +4715,7 @@
         }
       }
       Objects {
-        Id: 4821692805081060865
+        Id: 8973370178748008491
         Name: "Background"
         Transform {
           Location {
@@ -4728,7 +4728,7 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
+        ParentId: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4768,7 +4768,7 @@
         }
       }
       Objects {
-        Id: 13339785126407319954
+        Id: 1328277717216520053
         Name: "ProgressBackground"
         Transform {
           Location {
@@ -4781,7 +4781,7 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
+        ParentId: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4821,7 +4821,7 @@
         }
       }
       Objects {
-        Id: 3766201596844650635
+        Id: 8604357623426094576
         Name: "QuestInfoPanel"
         Transform {
           Location {
@@ -4834,8 +4834,8 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
-        ChildIds: 8020677941274107525
+        ParentId: 5429938013365871854
+        ChildIds: 16484664058107589157
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4868,7 +4868,7 @@
         }
       }
       Objects {
-        Id: 8020677941274107525
+        Id: 16484664058107589157
         Name: "QuestDescText"
         Transform {
           Location {
@@ -4881,7 +4881,7 @@
             Z: 1
           }
         }
-        ParentId: 3766201596844650635
+        ParentId: 8604357623426094576
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4929,7 +4929,7 @@
         }
       }
       Objects {
-        Id: 17771148627473307977
+        Id: 15688827148761581260
         Name: "UI Image"
         Transform {
           Location {
@@ -4942,7 +4942,7 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
+        ParentId: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4986,7 +4986,7 @@
         }
       }
       Objects {
-        Id: 11160875858113374077
+        Id: 17115312948995982223
         Name: "QuestProgress"
         Transform {
           Location {
@@ -4999,7 +4999,7 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
+        ParentId: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5045,7 +5045,7 @@
         }
       }
       Objects {
-        Id: 8222885634337703512
+        Id: 1600400900653066837
         Name: "ProgressText"
         Transform {
           Location {
@@ -5058,7 +5058,7 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
+        ParentId: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5104,7 +5104,7 @@
         }
       }
       Objects {
-        Id: 15721434792289495455
+        Id: 12095160117875750825
         Name: "TrackQuestButton"
         Transform {
           Location {
@@ -5120,7 +5120,7 @@
             Z: 1
           }
         }
-        ParentId: 3019646922358221805
+        ParentId: 5429938013365871854
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5188,7 +5188,7 @@
         }
       }
       Objects {
-        Id: 1264363606199287907
+        Id: 16758726349082100477
         Name: "ServerContext"
         Transform {
           Location {
@@ -5204,9 +5204,9 @@
             Z: 1
           }
         }
-        ParentId: 14269959248513539411
-        ChildIds: 9534571066173735450
-        ChildIds: 5991041352910840622
+        ParentId: 12318426896221531595
+        ChildIds: 13264659996266248774
+        ChildIds: 12978825777520185160
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5218,8 +5218,8 @@
         }
       }
       Objects {
-        Id: 9534571066173735450
-        Name: "QuestGiverController-Server"
+        Id: 13264659996266248774
+        Name: "QuestController_Server"
         Transform {
           Location {
           }
@@ -5232,7 +5232,7 @@
             Z: 1
           }
         }
-        ParentId: 1264363606199287907
+        ParentId: 16758726349082100477
         UnregisteredParameters {
           Overrides {
             Name: "cs:ModuleManager"
@@ -5254,7 +5254,7 @@
         }
       }
       Objects {
-        Id: 5991041352910840622
+        Id: 12978825777520185160
         Name: "QuestSystemHelper"
         Transform {
           Location {
@@ -5267,7 +5267,7 @@
             Z: 1
           }
         }
-        ParentId: 1264363606199287907
+        ParentId: 16758726349082100477
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -5288,7 +5288,7 @@
       Name: "QuestSystemHelper"
       PlatformAssetType: 3
       TextAsset {
-        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Quest System Combat Helper\r\n-- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)\r\n-- https://GamerTitan.com\r\n-- Date: 11/14/2020\r\n-- Version 0.1.0\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Require\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Quests = require(script:GetCustomProperty(\"QuestAPI\"))\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Local Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal function IsAPlayer(Player)\r\n    return Object.IsValid(Player) and Player:IsA(\"Player\")\r\nend\r\n\r\nlocal function HasQuest(Root)\r\n    return Root:GetCustomProperty(\"HasQuest\") or true\r\nend\r\n\r\nlocal function GetQuestId(Root)\r\n    return Root:GetCustomProperty(\"QuestId\")\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Global Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nfunction OnDamageTaken(object, dmg, source)\r\n    if IsAPlayer(source) and object.FindTemplateRoot then\r\n        local templateRoot = object:FindTemplateRoot()\r\n        if templateRoot then\r\n            --#TODO Add Damage Quests\r\n        end\r\n    end\r\nend\r\n\r\nfunction OnDiedEvent(object, dmg, source)\r\n    if IsAPlayer(source) and object.FindTemplateRoot then\r\n        local templateRoot = object:FindTemplateRoot()\r\n        if templateRoot and HasQuest(templateRoot) then\r\n            local QuestId = GetQuestId(templateRoot)\r\n            Quests.AddQuestProgress(QuestId, source)\r\n        end\r\n    end\r\nend\r\n\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Listeners\r\n------------------------------------------------------------------------------------------------------------------------\r\n--Events.Connect(\"CombatWrapAPI.OnDamageTaken\", OnDamageTaken) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()\r\nEvents.Connect(\"CombatWrapAPI.ObjectHasDied\", OnDiedEvent) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()\r\n"
+        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Quest System Combat Helper\r\n-- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)\r\n-- https://GamerTitan.com\r\n--v0.1.1-b - 2020/12/01\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Require\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Quests = require(script:GetCustomProperty(\"QuestAPI\"))\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Local Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal function IsAPlayer(Player)\r\n    return Object.IsValid(Player) and Player:IsA(\"Player\")\r\nend\r\n\r\nlocal function HasQuest(Root)\r\n    return Root:GetCustomProperty(\"HasQuest\") or true\r\nend\r\n\r\nlocal function GetQuestId(Root)\r\n    return Root:GetCustomProperty(\"QuestId\")\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Global Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nfunction OnDamageTaken(object, dmg, source)\r\n    if IsAPlayer(source) and object.FindTemplateRoot then\r\n        local templateRoot = object:FindTemplateRoot()\r\n        if templateRoot then\r\n            local isDead = false\r\n            Task.Wait(0.1)\r\n            local currentHealth = templateRoot:GetCustomProperty(\"CurrentHealth\")\r\n            if currentHealth and currentHealth <= 0 then\r\n                isDead = true\r\n            end\r\n            if isDead then\r\n                OnDiedEvent(object, dmg, source)\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\nfunction OnDiedEvent(object, dmg, source)\r\n    if IsAPlayer(source) and object.FindTemplateRoot then\r\n        local templateRoot = object:FindTemplateRoot()\r\n        if templateRoot and HasQuest(templateRoot) then\r\n            local QuestId = GetQuestId(templateRoot)\r\n            Quests.AddQuestProgress(QuestId, source)\r\n        end\r\n    end\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Listeners\r\n------------------------------------------------------------------------------------------------------------------------\r\nEvents.Connect(\"GoingToTakeDamage\", OnDamageTaken)\r\n--Events.Connect(\"CombatWrapAPI.OnDamageTaken\", OnDamageTaken) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()\r\n--Events.Connect(\"CombatWrapAPI.ObjectHasDied\", OnDiedEvent) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()\r\n"
         CustomParameters {
           Overrides {
             Name: "cs:QuestAPI"
@@ -5339,7 +5339,7 @@
       Name: "QUESTDATA"
       PlatformAssetType: 3
       TextAsset {
-        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Quest Data\r\n-- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)\r\n-- https://GamerTitan.com\r\n-- Date: 11/14/2020\r\n-- Version 1.1.0\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal API = {\r\n    [1] = {\r\n        id = 1,\r\n        name = \"Quest Name\",\r\n        descText = \"Quest Desc\",\r\n        completedText = \"Quest Comlete\",\r\n        questText = \"Quest Text\",\r\n        reqLevel = 0,\r\n        resName = \"Q1\",\r\n        resourcesReq = 1,\r\n        isRepeatable = true,\r\n        secondsUntilRepeatable = 12 * 3600,\r\n        rewards = {\r\n            XP = 100,\r\n            Coins = 100\r\n        }\r\n    }\r\n}\r\n\r\nreturn API\r\n"
+        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Quest Data\r\n-- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)\r\n-- https://GamerTitan.com\r\n-- Date: 11/14/2020\r\n-- Version 1.1.0\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal API = {\r\n    [1] = {\r\n        id = 1,\r\n        name = \"Quest Name\",\r\n        descText = \"Quest Desc\",\r\n        completedText = \"Quest Complete\",\r\n        questText = \"Quest Text\",\r\n        reqLevel = 0,\r\n        resName = \"Q1\",\r\n        resourcesReq = 1,\r\n        isRepeatable = true,\r\n        secondsUntilRepeatable = 12 * 3600,\r\n        rewards = {\r\n            XP = 100,\r\n            Coins = 100\r\n        }\r\n    }\r\n}\r\n\r\nreturn API\r\n"
         CustomParameters {
           Overrides {
             Name: "cs:jSON"
@@ -5368,7 +5368,7 @@
     }
     Assets {
       Id: 6380074869628201153
-      Name: "QuestGiverControllerServer"
+      Name: "QuesController_Server"
       PlatformAssetType: 3
       TextAsset {
         Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Quest Giver Controller Server\r\n-- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)\r\n-- https://GamerTitan.com\r\n-- Date: 11/14/2020\r\n-- Version 1.1.0\r\n------------------------------------------------------------------------------------------------------------------------\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Requires\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal PlayerQuests = require(script:GetCustomProperty(\"QuestAPI\"))\r\nlocal MODULE = require(script:GetCustomProperty(\"ModuleManager\"))\r\n\r\nfunction CROSS_CONTEXT_CALLER()\r\n    return MODULE.Get(\"standardcombo.Utils.CrossContextCaller\")\r\nend\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Variables\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal dupeCheck = nil\r\nlocal dupeCheck2 = nil\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Local Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\n\r\nlocal function SpawnEquipment(player, MUID)\r\n    CROSS_CONTEXT_CALLER().Call(\r\n        function()\r\n            local equipmentInstance = World.SpawnAsset(MUID)\r\n            for _, currentEquipment in ipairs(player:GetEquipment()) do\r\n                if currentEquipment.socket == equipmentInstance.socket then\r\n                    currentEquipment:Destroy()\r\n                end\r\n            end\r\n            equipmentInstance:Equip(player)\r\n        end\r\n    )\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Global Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\n\r\nfunction AcceptQuest(Player, questIdStr)\r\n    Player:SetResource(PlayerQuests.GetResourceName(tonumber(questIdStr)), 2)\r\nend\r\n\r\nfunction QuestItemPickup(player, resName, index)\r\n    player:AddResource(resName, 1)\r\nend\r\n\r\n\r\nfunction OnPlayerComplete(player, data)\r\n    local NPCQuest = tonumber(data.id)\r\n    local questStatus = 1\r\n    if PlayerQuests.IsRepeatable(NPCQuest) then\r\n        questStatus = os.time() + PlayerQuests.GetRepeatSeconds(NPCQuest) -- used to make repeatble quests\r\n    end\r\n\r\n    for key, value in pairs(PlayerQuests.GetRewards(NPCQuest)) do\r\n        if value and tonumber(value) == nil then\r\n            SpawnEquipment(player, value)\r\n        elseif value and tonumber(value) then\r\n            player:AddResource(key, value)\r\n        end\r\n    end\r\n    player:SetResource(PlayerQuests.GetResourceName(NPCQuest), questStatus)\r\nend\r\n\r\n\r\nfunction OnPlayerJoined(Player)\r\n    --Used to fix D&D Framework bug\r\n    Player:AddResource(\"XP\", 1)\r\n    Player:RemoveResource(\"XP\", 1)\r\n    ---\r\n    for _, quest in pairs(PlayerQuests.GetQuestTable()) do\r\n        local questRes = Player:GetResource(quest.resName)\r\n        if quest.isRepeatable and PlayerQuests.IsWaitingToBeAvailable(questRes) and questRes < os.time() then\r\n            Player:SetResource(quest.resName, 0)\r\n        end\r\n    end\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Listeners\r\n------------------------------------------------------------------------------------------------------------------------\r\nEvents.ConnectForPlayer(\"QuestAccept\", AcceptQuest)\r\nEvents.ConnectForPlayer(\"QuestComplete\", OnPlayerComplete)\r\nEvents.ConnectForPlayer(\"QuestTriggerServer.ItemPickup\", QuestItemPickup)\r\nGame.playerJoinedEvent:Connect(OnPlayerJoined)\r\n"
@@ -5724,7 +5724,7 @@
       Name: "QuestTrigger"
       PlatformAssetType: 3
       TextAsset {
-        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Quest Trigger\r\n-- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)\r\n-- https://GamerTitan.com\r\n-- Date: 11/14/2020\r\n-- Version 1.1.0\r\n------------------------------------------------------------------------------------------------------------------------\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Requires\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Quests = require(script:GetCustomProperty(\"QuestAPI\"))\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Objects\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Trigger = script:GetCustomProperty(\"Trigger\"):WaitForObject()\r\nlocal ROOT = script:GetCustomProperty(\"Root\"):WaitForObject()\r\nlocal prop = script:GetCustomProperty(\"Sword\"):WaitForObject()\r\nlocal Objective = ROOT:GetCustomProperty(\"Objective\")\r\nlocal QuestID = ROOT:GetCustomProperty(\"QuestID\")\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Variables\r\n------------------------------------------------------------------------------------------------------------------------\r\nprop.isEnabled = false\r\nlocal LocalPlayer = Game.GetLocalPlayer()\r\nlocal questResName = Quests.GetResourceName(QuestID)\r\nlocal resRequired = Quests.GetResourcesRequired(QuestID)\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Public API\r\n------------------------------------------------------------------------------------------------------------------------\r\nfunction OnInteracted(_, other)\r\n\tif other:IsA(\"Player\") and other == LocalPlayer and other:GetResource(questResName) > 0 then\r\n\t\tprop.isEnabled = false\r\n\t\tEvents.BroadcastToServer(\"QuestTriggerServer.ItemPickup\", questResName, Objective)\r\n\tend\r\nend\r\n\r\nfunction OnResourceChanged(_, resName, resAmt)\r\n\tif resName == questResName and resAmt == 2 then\r\n\t\tprop.isEnabled = true\r\n\tend\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Int\r\n------------------------------------------------------------------------------------------------------------------------\r\nTrigger.interactedEvent:Connect(OnInteracted)\r\nLocalPlayer.resourceChangedEvent:Connect(OnResourceChanged)\r\n\r\nTask.Wait(5)\r\nif Quests.IsNotComplete(LocalPlayer:GetResource(questResName), resRequired) then\r\n\tprop.isEnabled = true\r\nend\r\n"
+        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Quest Trigger\r\n-- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)\r\n-- https://GamerTitan.com\r\n-- Date: 11/14/2020\r\n-- Version 1.1.0\r\n------------------------------------------------------------------------------------------------------------------------\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Requires\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Quests = require(script:GetCustomProperty(\"QuestAPI\"))\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Objects\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Trigger = script:GetCustomProperty(\"Trigger\"):WaitForObject()\r\nlocal ROOT = script:GetCustomProperty(\"Root\"):WaitForObject()\r\nlocal prop = script:GetCustomProperty(\"Sword\"):WaitForObject()\r\nlocal Objective = ROOT:GetCustomProperty(\"Objective\")\r\nlocal QuestID = ROOT:GetCustomProperty(\"QuestID\")\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Variables\r\n------------------------------------------------------------------------------------------------------------------------\r\nprop.isEnabled = false\r\nlocal LocalPlayer = Game.GetLocalPlayer()\r\nlocal questResName = Quests.GetResourceName(QuestID)\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Public API\r\n------------------------------------------------------------------------------------------------------------------------\r\nfunction OnInteracted(_, other)\r\n\tif other:IsA(\"Player\") and other == LocalPlayer and other:GetResource(questResName) > 0 then\r\n\t\tprop.isEnabled = false\r\n\t\tEvents.BroadcastToServer(\"QuestTriggerServer.ItemPickup\", questResName, Objective)\r\n\tend\r\nend\r\n\r\nfunction OnResourceChanged(_, resName, resAmt)\r\n\tif resName == questResName and resAmt == 2 then\r\n\t\tprop.isEnabled = true\r\n\tend\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Int\r\n------------------------------------------------------------------------------------------------------------------------\r\nTrigger.interactedEvent:Connect(OnInteracted)\r\nLocalPlayer.resourceChangedEvent:Connect(OnResourceChanged)\r\n\r\nTask.Wait(5)\r\nif Quests.IsInProgress(LocalPlayer:GetResource(questResName)) then\r\n\tprop.isEnabled = true\r\nend\r\n"
         CustomParameters {
           Overrides {
             Name: "cs:QuestAPI"
@@ -5740,7 +5740,7 @@
       Name: "QuestGiverController"
       PlatformAssetType: 3
       TextAsset {
-        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Requires\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Quests = require(script:GetCustomProperty(\"QuestAPI\"))\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Parent Objects\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal trigger = script:GetCustomProperty(\"Trigger\"):WaitForObject()\r\nlocal ROOT = script:GetCustomProperty(\"RPGQuestGiver\"):WaitForObject()\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Objects\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal LocalPlayer = Game.GetLocalPlayer()\r\nlocal QuestDialog = script:GetCustomProperty(\"QuestGiverPanel\"):WaitForObject()\r\nlocal AcceptButton = script:GetCustomProperty(\"AcceptButton\"):WaitForObject()\r\nlocal DeclineButton = script:GetCustomProperty(\"DeclineButton\"):WaitForObject()\r\nlocal QuestComplete = script:GetCustomProperty(\"QuestGiverPanel_0\"):WaitForObject()\r\nlocal CompleteButton = script:GetCustomProperty(\"CompleteButton\"):WaitForObject()\r\nlocal QuestRewardPopup = script:GetCustomProperty(\"QuestRewardPopup\"):WaitForObject()\r\nlocal QuestDescText = script:GetCustomProperty(\"QuestDescText\"):WaitForObject()\r\nlocal QuestName = script:GetCustomProperty(\"QuestName\"):WaitForObject()\r\nlocal RewardIcon = script:GetCustomProperty(\"RewardIcon\"):WaitForObject()\r\nlocal RewardText = script:GetCustomProperty(\"RewardText\"):WaitForObject()\r\nlocal QuestCompleteText = script:GetCustomProperty(\"QuestCompleteText\"):WaitForObject()\r\nlocal CoinPurse = script:GetCustomProperty(\"CoinPurse\")\r\nlocal Equipment = script:GetCustomProperty(\"Equipment\")\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Asset Refrences\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal NPCQuest = ROOT:GetCustomProperty(\"questID\")\r\nlocal Disappear = ROOT:GetCustomProperty(\"DisappearOnAccept\") or false\r\nlocal RequiresQuestComplete = ROOT:GetCustomProperty(\"RequiresQuestComplete\")\r\nlocal QuestCompleteId = ROOT:GetCustomProperty(\"questCompleteId\")\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Variables\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal marker\r\nQuestDialog.visibility = Visibility.FORCE_OFF\r\nQuestComplete.visibility = Visibility.FORCE_OFF\r\nQuestRewardPopup.visibility = Visibility.FORCE_OFF\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Local Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal function UIShown(bool)\r\n\tUI.SetCursorVisible(bool)\r\n\tUI.SetCanCursorInteractWithUI(bool)\r\nend\r\n\r\nlocal function HidePanels()\r\n\tQuestDialog.visibility = Visibility.FORCE_OFF\r\n\tQuestComplete.visibility = Visibility.FORCE_OFF\r\n\tQuestRewardPopup.visibility = Visibility.FORCE_OFF\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Global Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nfunction OnEndOverlap(whichTrigger, other)\r\n\tif other:IsA(\"Player\") then\r\n\t\ttrigger.isInteractable = true\r\n\t\tUIShown(false)\r\n\t\tHidePanels()\r\n\tend\r\nend\r\n\r\nfunction OnCompleteQuest(button)\r\n\tif NPCQuest == tonumber(button.name) then\r\n\t\ttrigger.isInteractable = true\r\n\t\tUIShown(false)\r\n\t\tHidePanels()\r\n\t\tEvents.BroadcastToServer(\"QuestComplete\", {id = button.name})\r\n\tend\r\nend\r\n\r\nfunction OnAcceptQuest(button)\r\n\tlocal questID = tonumber(button.clientUserData.QuestID)\r\n\tif NPCQuest == questID then\r\n\t\ttrigger.isInteractable = true\r\n\t\tUIShown(false)\r\n\t\tHidePanels()\r\n\t\tROOT.clientUserData.QuestID = tonumber(NPCQuest)\r\n\t\tEvents.BroadcastToServer(\"QuestAccept\", questID)\r\n\t\tif Disappear then\r\n\t\t--\tNPC.isEnabled = false\r\n\t\tend\r\n\t\tlocal NPCLocation = ROOT:GetWorldPosition()\r\n\tend\r\nend\r\n\r\nfunction OnDeclineQuest(button)\r\n\ttrigger.isInteractable = true\r\n\tCompleteButton.isEnabled = false\r\n\tUIShown(false)\r\n\tHidePanels()\r\nend\r\n\r\nfunction OnInteracted(whichTrigger, other)\r\n\tif other:IsA(\"Player\") and Quests.GetRequiredLevel(NPCQuest) <= other:GetResource(\"level\") then\r\n\t\tlocal resName = Quests.GetResourceName(NPCQuest)\r\n\t\tlocal resReq = Quests.GetResourcesRequired(NPCQuest) + 2\r\n\t\tlocal questStatus = other:GetResource(resName)\r\n\t\tlocal requiredQuestResName, requiredQuestStatus\r\n\t\tif RequiresQuestComplete then\r\n\t\t\trequiredQuestResName = Quests.GetResourceName(QuestCompleteId)\r\n\t\t\trequiredQuestStatus = other:GetResource(requiredQuestResName)\r\n\t\tend\r\n\t\tif not RequiresQuestComplete or (RequiresQuestComplete and requiredQuestStatus > 100000) then\r\n\t\t\tRewardIcon.visibility = Visibility.FORCE_ON\r\n\t\t\tif questStatus >= 2 then\r\n\t\t\t\tROOT.clientUserData.QuestID = NPCQuest\r\n\t\t\tend\r\n\t\t\tlocal onQuestId = ROOT.clientUserData.QuestID\r\n\t\t\tif NPCQuest ~= onQuestId and Quests.IsAvailable(questStatus) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tUIShown(true)\r\n\t\t\t\tQuestDialog.visibility = Visibility.FORCE_ON\r\n\t\t\t\tQuestDescText.text = Quests.GetDescriptionText(NPCQuest)\r\n\t\t\t\tQuestName.text = Quests.GetName(NPCQuest)\r\n\t\t\t\tif AcceptButton then\r\n\t\t\t\t\tAcceptButton.isEnabled = true\r\n\t\t\t\tend\r\n\t\t\t\tAcceptButton.clientUserData.QuestID = tostring(NPCQuest)\r\n\t\t\telseif Quests.IsNotComplete(questStatus, resReq) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tUIShown(true)\r\n\t\t\t\tQuestDialog.visibility = Visibility.FORCE_ON\r\n\t\t\t\tQuestDescText.text =\r\n\t\t\t\t\tother.name ..\r\n\t\t\t\t\t\" you haven\'t done what I\'ve asked. Please, press J to track your quest and come back to me once you have completed it.\"\r\n\t\t\t\tQuestName.text = Quests.GetName(NPCQuest)\r\n\t\t\t\tAcceptButton.isEnabled = false\r\n\r\n\t\t\t\tDeclineButton.text = \"Goodbye\"\r\n\t\t\telseif Quests.IsWaitingToBeAvailable(questStatus) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tUIShown(true)\r\n\t\t\t\tQuestDialog.visibility = Visibility.FORCE_ON\r\n\t\t\t\tQuestDescText.text = Quests.GetCompletedText(NPCQuest)\r\n\t\t\t\tQuestName.text = \"Quest Complete\"\r\n\t\t\t\tAcceptButton.isEnabled = false\r\n\t\t\t\tDeclineButton.text = \"Goodbye\"\r\n\t\t\telseif NPCQuest == onQuestId and Quests.IsComplete(questStatus, resReq) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tQuestComplete.visibility = Visibility.FORCE_ON\r\n\t\t\t\tCompleteButton.isEnabled = true\r\n\t\t\t\tCompleteButton.name = tostring(NPCQuest)\r\n\t\t\t\tQuestCompleteText.text = Quests.GetCompletedText(NPCQuest)\r\n\t\t\t\tUIShown(true)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\nend\r\n\r\nfunction CloseItemWindow(player, binding)\r\n\tif QuestDialog.visibility == Visibility.FORCE_ON then\r\n\t\tif\r\n\t\t\tbinding == \"ability_extra_21\" or binding == \"ability_extra_30\" or binding == \"ability_extra_31\" or\r\n\t\t\t\tbinding == \"ability_extra_32\"\r\n\t\t then\r\n\t\t\ttrigger.isInteractable = true\r\n\t\t\tHidePanels()\r\n\t\t\tUIShown(false)\r\n\t\tend\r\n\tend\r\nend\r\nAcceptButton.clickedEvent:Connect(OnAcceptQuest)\r\nDeclineButton.clickedEvent:Connect(OnDeclineQuest)\r\nCompleteButton.clickedEvent:Connect(OnCompleteQuest)\r\ntrigger.endOverlapEvent:Connect(OnEndOverlap)\r\ntrigger.interactedEvent:Connect(OnInteracted)\r\nLocalPlayer.bindingPressedEvent:Connect(CloseItemWindow)\r\n"
+        Text: "------------------------------------------------------------------------------------------------------------------------\r\n-- Requires\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal Quests = require(script:GetCustomProperty(\"QuestAPI\"))\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Parent Objects\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal trigger = script:GetCustomProperty(\"Trigger\"):WaitForObject()\r\nlocal ROOT = script:GetCustomProperty(\"RPGQuestGiver\"):WaitForObject()\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Objects\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal LocalPlayer = Game.GetLocalPlayer()\r\nlocal QuestDialog = script:GetCustomProperty(\"QuestGiverPanel\"):WaitForObject()\r\nlocal AcceptButton = script:GetCustomProperty(\"AcceptButton\"):WaitForObject()\r\nlocal DeclineButton = script:GetCustomProperty(\"DeclineButton\"):WaitForObject()\r\nlocal QuestComplete = script:GetCustomProperty(\"QuestGiverPanel_0\"):WaitForObject()\r\nlocal CompleteButton = script:GetCustomProperty(\"CompleteButton\"):WaitForObject()\r\nlocal QuestRewardPopup = script:GetCustomProperty(\"QuestRewardPopup\"):WaitForObject()\r\nlocal QuestDescText = script:GetCustomProperty(\"QuestDescText\"):WaitForObject()\r\nlocal QuestName = script:GetCustomProperty(\"QuestName\"):WaitForObject()\r\nlocal RewardIcon = script:GetCustomProperty(\"RewardIcon\"):WaitForObject()\r\nlocal RewardText = script:GetCustomProperty(\"RewardText\"):WaitForObject()\r\nlocal QuestCompleteText = script:GetCustomProperty(\"QuestCompleteText\"):WaitForObject()\r\nlocal CoinPurse = script:GetCustomProperty(\"CoinPurse\")\r\nlocal Equipment = script:GetCustomProperty(\"Equipment\")\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Asset Refrences\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal NPCQuest = ROOT:GetCustomProperty(\"questID\")\r\nlocal Disappear = ROOT:GetCustomProperty(\"DisappearOnAccept\") or false\r\nlocal RequiresQuestComplete = ROOT:GetCustomProperty(\"RequiresQuestComplete\")\r\nlocal QuestCompleteId = ROOT:GetCustomProperty(\"questCompleteId\")\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Variables\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal marker\r\nQuestDialog.visibility = Visibility.FORCE_OFF\r\nQuestComplete.visibility = Visibility.FORCE_OFF\r\nQuestRewardPopup.visibility = Visibility.FORCE_OFF\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Local Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nlocal function UIShown(bool)\r\n\tUI.SetCursorVisible(bool)\r\n\tUI.SetCanCursorInteractWithUI(bool)\r\nend\r\n\r\nlocal function HidePanels()\r\n\tQuestDialog.visibility = Visibility.FORCE_OFF\r\n\tQuestComplete.visibility = Visibility.FORCE_OFF\r\n\tQuestRewardPopup.visibility = Visibility.FORCE_OFF\r\nend\r\n\r\n------------------------------------------------------------------------------------------------------------------------\r\n-- Global Functions\r\n------------------------------------------------------------------------------------------------------------------------\r\nfunction OnEndOverlap(whichTrigger, other)\r\n\tif other:IsA(\"Player\") then\r\n\t\ttrigger.isInteractable = true\r\n\t\tUIShown(false)\r\n\t\tHidePanels()\r\n\tend\r\nend\r\n\r\nfunction OnCompleteQuest(button)\r\n\tif NPCQuest == tonumber(button.name) then\r\n\t\ttrigger.isInteractable = true\r\n\t\tUIShown(false)\r\n\t\tHidePanels()\r\n\t\tEvents.BroadcastToServer(\"QuestComplete\", {id = button.name})\r\n\tend\r\nend\r\n\r\nfunction OnAcceptQuest(button)\r\n\tlocal questID = tonumber(button.clientUserData.QuestID)\r\n\tif NPCQuest == questID then\r\n\t\ttrigger.isInteractable = true\r\n\t\tUIShown(false)\r\n\t\tHidePanels()\r\n\t\tROOT.clientUserData.QuestID = tonumber(NPCQuest)\r\n\t\tEvents.BroadcastToServer(\"QuestAccept\", questID)\r\n\t\tif Disappear then\r\n\t\t--\tNPC.isEnabled = false\r\n\t\tend\r\n\t\t--local NPCLocation = ROOT:GetWorldPosition()\r\n\tend\r\nend\r\n\r\nfunction OnDeclineQuest(button)\r\n\ttrigger.isInteractable = true\r\n\tCompleteButton.isEnabled = false\r\n\tUIShown(false)\r\n\tHidePanels()\r\nend\r\n\r\nfunction OnInteracted(whichTrigger, other)\r\n\tif other:IsA(\"Player\") and Quests.GetRequiredLevel(NPCQuest) <= other:GetResource(\"level\") then\r\n\t\tlocal resName = Quests.GetResourceName(NPCQuest)\r\n\t\tlocal resReq = Quests.GetResourcesRequired(NPCQuest) + 2\r\n\t\tlocal questStatus = other:GetResource(resName)\r\n\t\tlocal requiredQuestResName, requiredQuestStatus\r\n\t\tif RequiresQuestComplete then\r\n\t\t\trequiredQuestResName = Quests.GetResourceName(QuestCompleteId)\r\n\t\t\trequiredQuestStatus = other:GetResource(requiredQuestResName)\r\n\t\tend\r\n\t\tif not RequiresQuestComplete or (RequiresQuestComplete and requiredQuestStatus > 100000) then\r\n\t\t\tRewardIcon.visibility = Visibility.FORCE_ON\r\n\t\t\tDeclineButton.text = \"Decline\"\r\n\t\t\tif questStatus >= 2 then\r\n\t\t\t\tROOT.clientUserData.QuestID = NPCQuest\r\n\t\t\tend\r\n\t\t\tlocal onQuestId = ROOT.clientUserData.QuestID\r\n\t\t\tif NPCQuest ~= onQuestId and Quests.IsAvailable(questStatus) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tUIShown(true)\r\n\t\t\t\tQuestDialog.visibility = Visibility.FORCE_ON\r\n\t\t\t\tQuestDescText.text = Quests.GetDescriptionText(NPCQuest)\r\n\t\t\t\tQuestName.text = Quests.GetName(NPCQuest)\r\n\t\t\t\tif AcceptButton then\r\n\t\t\t\t\tAcceptButton.isEnabled = true\r\n\t\t\t\tend\r\n\t\t\t\tAcceptButton.clientUserData.QuestID = tostring(NPCQuest)\r\n\t\t\telseif Quests.IsNotComplete(questStatus, resReq) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tUIShown(true)\r\n\t\t\t\tQuestDialog.visibility = Visibility.FORCE_ON\r\n\t\t\t\tQuestDescText.text =\r\n\t\t\t\t\tother.name ..\r\n\t\t\t\t\t\" you haven\'t done what I\'ve asked. Please, press J to track your quest and come back to me once you have completed it.\"\r\n\t\t\t\tQuestName.text = Quests.GetName(NPCQuest)\r\n\t\t\t\tAcceptButton.isEnabled = false\r\n\r\n\t\t\t\tDeclineButton.text = \"Goodbye\"\r\n\t\t\telseif Quests.IsWaitingToBeAvailable(questStatus) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tUIShown(true)\r\n\t\t\t\tQuestDialog.visibility = Visibility.FORCE_ON\r\n\t\t\t\tQuestDescText.text = Quests.GetCompletedText(NPCQuest)\r\n\t\t\t\tQuestName.text = \"Quest Complete\"\r\n\t\t\t\tAcceptButton.isEnabled = false\r\n\t\t\t\tDeclineButton.text = \"Goodbye\"\r\n\t\t\telseif NPCQuest == onQuestId and Quests.IsComplete(questStatus, resReq) then\r\n\t\t\t\ttrigger.isInteractable = false\r\n\t\t\t\tQuestComplete.visibility = Visibility.FORCE_ON\r\n\t\t\t\tCompleteButton.isEnabled = true\r\n\t\t\t\tCompleteButton.name = tostring(NPCQuest)\r\n\t\t\t\tQuestCompleteText.text = Quests.GetCompletedText(NPCQuest)\r\n\t\t\t\tUIShown(true)\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\nend\r\n\r\nfunction CloseItemWindow(player, binding)\r\n\tif QuestDialog.visibility == Visibility.FORCE_ON then\r\n\t\tif\r\n\t\t\tbinding == \"ability_extra_21\" or binding == \"ability_extra_30\" or binding == \"ability_extra_31\" or\r\n\t\t\t\tbinding == \"ability_extra_32\"\r\n\t\t then\r\n\t\t\ttrigger.isInteractable = true\r\n\t\t\tHidePanels()\r\n\t\t\tUIShown(false)\r\n\t\tend\r\n\tend\r\nend\r\nAcceptButton.clickedEvent:Connect(OnAcceptQuest)\r\nDeclineButton.clickedEvent:Connect(OnDeclineQuest)\r\nCompleteButton.clickedEvent:Connect(OnCompleteQuest)\r\ntrigger.endOverlapEvent:Connect(OnEndOverlap)\r\ntrigger.interactedEvent:Connect(OnInteracted)\r\nLocalPlayer.bindingPressedEvent:Connect(CloseItemWindow)\r\n"
         CustomParameters {
           Overrides {
             Name: "cs:CoinPurse"
