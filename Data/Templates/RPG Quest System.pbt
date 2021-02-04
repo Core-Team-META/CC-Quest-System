@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18012244764686992458
   Name: "RPG Quest System"
   PlatformAssetType: 5
@@ -633,6 +633,14 @@
             PlayOnStartAnimation {
               Animation: "unarmed_wave"
               PlaybackRate: 1.00853765
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -7001,7 +7009,7 @@
     }
     Assets {
       Id: 15478017006173490553
-      Name: "Fantasy Human Guy"
+      Name: "Fantasy Human Guy 1"
       PlatformAssetType: 17
       PrimaryAsset {
         AssetType: "AnimatedMeshAssetRef"
@@ -7178,6 +7186,6 @@
   Marketplace {
     Description: "A fully working quest system that works simply by dragging and dropping into your project.\r\n\r\nCheck the read me for a video tutorial on how to use it step by step."
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
   DirectlyPublished: true
 }

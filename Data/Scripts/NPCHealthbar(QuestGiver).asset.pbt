@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16491943913220480600
   Name: "NPCHealthbar(QuestGiver)"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

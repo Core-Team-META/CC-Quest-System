@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6745855819825656423
   Name: "Skeleton Sword Swipe Effect"
   PlatformAssetType: 5
@@ -257,7 +257,7 @@
     }
     Assets {
       Id: 860140904207434054
-      Name: "Sword Swipe Half Circle VFX"
+      Name: "Sword Swipe Half Circle"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
@@ -287,5 +287,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

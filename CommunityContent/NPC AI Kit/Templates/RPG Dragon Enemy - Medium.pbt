@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10456117980232079762
   Name: "RPG Dragon Enemy - Medium"
   PlatformAssetType: 5
@@ -839,6 +839,14 @@
               PlaybackRate: 1
               ShouldLoop: true
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -875,5 +883,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

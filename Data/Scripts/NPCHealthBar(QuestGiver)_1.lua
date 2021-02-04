@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 NPCHealthBar
 by: standardcombo
 v0.6.0

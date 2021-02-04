@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14107985877549480163
   Name: "CombatWrapAPI"
   PlatformAssetType: 3
@@ -32,5 +32,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

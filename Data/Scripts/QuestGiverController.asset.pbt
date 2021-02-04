@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13706331181105299022
   Name: "QuestGiverController"
   PlatformAssetType: 3
@@ -42,5 +42,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

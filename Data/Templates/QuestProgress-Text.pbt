@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 880602151129032324
   Name: "QuestProgress-Text"
   PlatformAssetType: 5
@@ -65,5 +65,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

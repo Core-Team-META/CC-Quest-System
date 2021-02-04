@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16480164691061818386
   Name: "SetAbilityIconClientOptimized"
   PlatformAssetType: 3
@@ -41,5 +41,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

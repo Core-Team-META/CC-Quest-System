@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18376801781863068358
   Name: "MOBA Cannon Tower"
   PlatformAssetType: 5
@@ -3963,5 +3963,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

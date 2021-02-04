@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18097900967967142095
   Name: "RPG Skeleton - Swordsman"
   PlatformAssetType: 5
@@ -842,6 +842,14 @@
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -5456,5 +5464,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

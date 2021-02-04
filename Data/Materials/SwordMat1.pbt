@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 6652149231841382570
   Name: "SwordMat1"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 18173900551661679658
     ParameterOverrides {

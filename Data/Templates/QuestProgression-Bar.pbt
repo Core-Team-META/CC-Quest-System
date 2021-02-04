@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16318178024945519655
   Name: "QuestProgression-Bar"
   PlatformAssetType: 5
@@ -63,5 +63,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

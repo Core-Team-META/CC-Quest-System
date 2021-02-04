@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3734045590085482986
   Name: "NPCCampBehavior_AlwaysSpawn"
   PlatformAssetType: 3
@@ -22,5 +22,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

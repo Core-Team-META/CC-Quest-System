@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18150129747205491400
   Name: "RPG Raptor"
   PlatformAssetType: 5
@@ -798,6 +798,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -834,5 +842,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

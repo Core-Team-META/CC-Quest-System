@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8124405343923068689
   Name: "RPG Quest Giver 1.0"
   PlatformAssetType: 5
@@ -44,7 +44,7 @@
     OwnerAccountId: "d1073dbcc404405cbef8ce728e53d380"
     OwnerName: "Morticai"
     Version: "1.19.0"
-    Description: "A fully working quest system that works simply by dragging and dropping into your project.\r\n\r\nCheck the read me for a video tutorial on how to use it step by step."
+    Description: "This is the orginal Quest System, found in Heroborne.\r\n\r\nFor the latest version please search \"META Quest System\""
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

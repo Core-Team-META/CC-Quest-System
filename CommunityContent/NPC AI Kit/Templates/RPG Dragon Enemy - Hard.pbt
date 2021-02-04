@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4640641637474336705
   Name: "RPG Dragon Enemy - Hard"
   PlatformAssetType: 5
@@ -858,6 +858,14 @@
               PlaybackRate: 1
               ShouldLoop: true
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -894,5 +902,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

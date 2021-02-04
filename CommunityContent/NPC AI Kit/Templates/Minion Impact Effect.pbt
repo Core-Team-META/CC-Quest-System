@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12141659972256016535
   Name: "Minion Impact Effect"
   PlatformAssetType: 5
@@ -123,5 +123,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3373978247902432081
   Name: "Advanced Sword"
   PlatformAssetType: 5
@@ -882,5 +882,5 @@
       AssetId: "Advanced_Sword"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

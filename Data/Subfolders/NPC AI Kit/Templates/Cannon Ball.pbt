@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2057575306481965286
   Name: "Cannon Ball"
   PlatformAssetType: 5
@@ -115,5 +115,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

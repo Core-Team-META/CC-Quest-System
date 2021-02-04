@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9272517608944107611
   Name: "Dragon Fireball Easy"
   PlatformAssetType: 5
@@ -283,5 +283,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

@@ -1,6 +1,6 @@
-﻿--[[
+--[[
     Quest System - README
-    v0.3.0 - 2020/11/19
+    v0.3.1 - 2021/2/4
     Created By: Morticai (META) (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 
       
@@ -16,7 +16,8 @@
 
         Requirements:
 
-    CombatDependiences v0.10.1 or higher By: standardcombo
+    CombatDependiences v1.12.0 By: standardcombo
+    NPC AI Kit v1.32.0 By: standardcombo
     (https://www.coregames.com/user/b4c6e32137e54571814b5e8f27aa2fcd)
 
     
@@ -31,7 +32,9 @@
     Quest Setup
     ===========
     
-    1. To begin creating quests, first select the ROOT called "RPG Quest System", you'll then see a custom property called UseHeirarchyData,
+    1. To begin creating quests, first drag "Quest System Dependencies" into your heirarchy.
+    
+    2. Inside of Quest System Dependencies is a group called "QuestGivers" you'll then see a custom property called UseHeirarchyData,
     in most cases make sure that this is selected to allow the system to grab all quest data from the QuestList in the heirarchy. If left
     unchecked, quest information will be pulled from the QUESTDATA.lua table. (Using the QUESTDATA is a more advanced feature and should
     only be used if your project contains a lot of quests, to cut down on object count in the heirarchy.)

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17451304434931621772
   Name: "Advanced 2-Handed Sword"
   PlatformAssetType: 5
@@ -924,5 +924,5 @@
       AssetId: "Advanced_2-Handed_Sword"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

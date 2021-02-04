@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16497899681289884618
   Name: "TowerDamageFX"
   PlatformAssetType: 5
@@ -80,5 +80,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

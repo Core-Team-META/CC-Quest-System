@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12393635061933804643
   Name: "CombatWrapNPC"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

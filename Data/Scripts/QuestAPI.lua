@@ -1,4 +1,4 @@
-﻿------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 -- Quest System API
 -- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 -- https://GamerTitan.com
@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------------------------------------------------------
 local API = {}
 
-local UseHeirarchyData = World.FindObjectByName("RPG Quest System"):GetCustomProperty("UseHeirarchyData") or true
+local UseHeirarchyData = World.FindObjectByName("QuestGivers"):GetCustomProperty("UseHeirarchyData") or true
 local questTable = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- Requires

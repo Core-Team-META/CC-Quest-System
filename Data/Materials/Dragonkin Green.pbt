@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 7465368998497419452
   Name: "Dragonkin Green"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 8082551051744776500
     ParameterOverrides {

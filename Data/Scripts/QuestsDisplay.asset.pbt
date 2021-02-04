@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13275603454610301263
   Name: "QuestsDisplay"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

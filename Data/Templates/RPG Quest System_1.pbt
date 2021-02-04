@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5644742528842290288
   Name: "RPG Quest System"
   PlatformAssetType: 5
@@ -738,6 +738,14 @@
               Animation: "unarmed_wave"
               PlaybackRate: 1.00853765
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1202,6 +1210,14 @@
             PlayOnStartAnimation {
               Animation: "unarmed_wave"
               PlaybackRate: 1.00853765
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -5285,7 +5301,7 @@
     }
     Assets {
       Id: 15478017006173490553
-      Name: "Fantasy Human Guy"
+      Name: "Fantasy Human Guy 1"
       PlatformAssetType: 17
       PrimaryAsset {
         AssetType: "AnimatedMeshAssetRef"
@@ -5402,7 +5418,7 @@
     }
     Assets {
       Id: 17586365689296088662
-      Name: "Background Flat 020"
+      Name: "BG Gradient 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
@@ -5414,5 +5430,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

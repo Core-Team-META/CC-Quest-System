@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 NPCHealthBarDataProvider - Client
 by: standardcombo
 v0.6.1

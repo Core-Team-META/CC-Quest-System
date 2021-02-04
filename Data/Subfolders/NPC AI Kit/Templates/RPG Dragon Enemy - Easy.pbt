@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10439311011644165145
   Name: "RPG Dragon Enemy - Easy"
   PlatformAssetType: 5
@@ -837,6 +837,14 @@
               PlaybackRate: 1
               ShouldLoop: true
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -873,5 +881,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

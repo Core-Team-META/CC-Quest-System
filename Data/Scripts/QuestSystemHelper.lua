@@ -1,9 +1,8 @@
-﻿------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 -- Quest System Combat Helper
 -- Author Morticai - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
 -- https://GamerTitan.com
--- Date: 11/14/2020
--- Version 0.1.0
+-- v0.1.2 - 2021/01/26
 ------------------------------------------------------------------------------------------------------------------------
 -- Require
 ------------------------------------------------------------------------------------------------------------------------
@@ -26,16 +25,11 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 -- Global Functions
 ------------------------------------------------------------------------------------------------------------------------
-function OnDamageTaken(object, dmg, source)
-    if IsAPlayer(source) and object.FindTemplateRoot then
-        local templateRoot = object:FindTemplateRoot()
-        if templateRoot then
-            --#TODO Add Damage Quests
-        end
-    end
-end
 
-function OnDiedEvent(object, dmg, source)
+
+function OnDiedEvent(attackData)
+    local source = attackData.source
+    local object = attackData.object
     if IsAPlayer(source) and object.FindTemplateRoot then
         local templateRoot = object:FindTemplateRoot()
         if templateRoot and HasQuest(templateRoot) then
@@ -45,9 +39,7 @@ function OnDiedEvent(object, dmg, source)
     end
 end
 
-
 ------------------------------------------------------------------------------------------------------------------------
 -- Listeners
 ------------------------------------------------------------------------------------------------------------------------
---Events.Connect("CombatWrapAPI.OnDamageTaken", OnDamageTaken) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()
 Events.Connect("CombatWrapAPI.ObjectHasDied", OnDiedEvent) --Broadcasted from CombatWrapAPI.lua -- ApplyDamage()

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2823678865257014473
   Name: "QuestSystemHelper"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

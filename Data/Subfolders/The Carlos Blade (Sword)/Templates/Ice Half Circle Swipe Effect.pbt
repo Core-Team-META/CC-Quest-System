@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17393819242880837529
   Name: "Ice Half Circle Swipe Effect"
   PlatformAssetType: 5
@@ -232,7 +232,7 @@
     }
     Assets {
       Id: 860140904207434054
-      Name: "Sword Swipe Half Circle VFX"
+      Name: "Sword Swipe Half Circle"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
@@ -262,5 +262,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

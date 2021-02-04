@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 361592464641729475
   Name: "NPCAIServer"
   PlatformAssetType: 3
@@ -67,5 +67,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

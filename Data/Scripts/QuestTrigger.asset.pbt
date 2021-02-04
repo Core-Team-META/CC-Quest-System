@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2739815648079257768
   Name: "QuestTrigger"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

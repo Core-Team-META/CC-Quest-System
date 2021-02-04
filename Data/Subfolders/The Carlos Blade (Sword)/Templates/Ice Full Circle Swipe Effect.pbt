@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11100226650383195469
   Name: "Ice Full Circle Swipe Effect"
   PlatformAssetType: 5
@@ -266,5 +266,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

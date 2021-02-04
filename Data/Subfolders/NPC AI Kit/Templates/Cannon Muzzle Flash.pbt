@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14695337466193510927
   Name: "Cannon Muzzle Flash"
   PlatformAssetType: 5
@@ -148,5 +148,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

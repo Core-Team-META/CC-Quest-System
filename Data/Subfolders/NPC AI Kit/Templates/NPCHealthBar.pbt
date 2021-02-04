@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17059554172788276022
   Name: "NPCHealthBar"
   PlatformAssetType: 5
@@ -257,7 +257,7 @@
     }
     Assets {
       Id: 5351428073291024820
-      Name: "Opaque Emissive"
+      Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
@@ -269,5 +269,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10841859800697765370
   Name: "QUESTDATA"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

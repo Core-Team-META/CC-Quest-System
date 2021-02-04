@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15236360488181826829
   Name: "Fantasy Weapon - Sword 02 (Prop)"
   PlatformAssetType: 5
@@ -263,5 +263,5 @@
       AssetId: "Fantasy_Weapon_-_Sword_02__Prop_"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

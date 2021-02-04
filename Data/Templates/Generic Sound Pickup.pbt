@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6795206535065158887
   Name: "Generic Sound Pickup"
   PlatformAssetType: 5
@@ -67,7 +67,7 @@
     }
     Assets {
       Id: 9325668214448125402
-      Name: "Weapon Pickup SFX"
+      Name: "Weapon Pickup 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
@@ -79,5 +79,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

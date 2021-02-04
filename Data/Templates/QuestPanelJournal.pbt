@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4286514241961570395
   Name: "QuestPanelJournal"
   PlatformAssetType: 5
@@ -201,5 +201,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

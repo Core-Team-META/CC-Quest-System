@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10654839067837344631
   Name: "QuestProgress-Panel"
   PlatformAssetType: 5
@@ -119,5 +119,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

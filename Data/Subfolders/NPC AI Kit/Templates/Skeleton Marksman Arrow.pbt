@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3272984150226857184
   Name: "Skeleton Marksman Arrow"
   PlatformAssetType: 5
@@ -104,5 +104,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

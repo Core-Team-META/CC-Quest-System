@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12880670688737124697
   Name: "Combat Dependencies"
   PlatformAssetType: 5
@@ -151,6 +151,6 @@
   Marketplace {
     Description: "Common dependencies for Player and NPC combat, extracted into a separate template to reduce depencency and asset duplication across community content pieces.\r\n\r\nv1.0.1\r\n- Fixed a crash when using AOE weapons separate from the NPC Kit."
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
   DirectlyPublished: true
 }

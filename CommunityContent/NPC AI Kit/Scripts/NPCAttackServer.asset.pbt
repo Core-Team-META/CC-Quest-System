@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18353710192644490447
   Name: "NPCAttackServer"
   PlatformAssetType: 3
@@ -131,5 +131,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

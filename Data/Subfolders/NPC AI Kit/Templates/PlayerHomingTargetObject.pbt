@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10041630588776178325
   Name: "PlayerHomingTargetObject"
   PlatformAssetType: 5
@@ -53,5 +53,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

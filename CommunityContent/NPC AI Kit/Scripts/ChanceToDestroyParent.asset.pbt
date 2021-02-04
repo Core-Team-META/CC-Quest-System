@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3089864294339430716
   Name: "ChanceToDestroyParent"
   PlatformAssetType: 3
@@ -14,5 +14,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1970105428586059764
   Name: "Sword Melee Swing Sound"
   PlatformAssetType: 5
@@ -71,5 +71,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 74
 }
