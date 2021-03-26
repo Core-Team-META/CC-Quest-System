@@ -8,7 +8,7 @@ UserSettings/
 
 # Screenshots used when publishing & for project thumbnails in the Create tab
 # Comment out if you want to synchronize screenshots
-Screenshots/
+#Screenshots/
 
 # Directory created when migrating from an old storage format
 # No need to synchronize
