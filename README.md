@@ -23,6 +23,6 @@ Make sure to read the QuestSystem_README file for setup and configuration instru
 
 Thanks to:
 
-• @Morticai for creation and packaging for Community Content
-• @standardcombo for review and documentation template
-• @Aggripina for UI thumbnail design
+- @Morticai for creation and packaging for Community Content
+- @standardcombo for review and documentation template
+- @Aggripina for UI thumbnail design
